@@ -10,6 +10,8 @@
 
 <a target="_blank" align="center">
   <img align="right" width="400" alt="GIF" src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279">
+
+  <br/>
 </a>
 
 Un apasionado **desarrollador web** y estudiante de último año de **Ingeniería en Sistemas de Computación**. Mi amor por la **programación y el diseño UI** me ha llevado 
@@ -29,28 +31,77 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     <img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt = "html" />
   </a>
 
-  <img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt = "css" />
-  <img src = "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt = "scss" />
-  <img src = "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt = "js" />
-  <img src = "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt = "ts" />
-  <img src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt = "php" />
+  <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt = "css" />
+  </a>
+
+  <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt = "scss" />
+  </a>
+
+  <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt = "js" />
+  </a>
+
+  <a href="https://www.typescriptlang.org" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt = "ts" />
+  </a>
+
+  <a href="https://www.php.net/manual/es/intro-whatis.php" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt = "php" />
+  </a>
 </p>
 
 - <h3>Frameworks</h3>
 
 <p>
-  <img src = "https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt = "tailwindcss" />
-  <img src = "https://img.shields.io/badge/React-0088CC?style=for-the-badge&logo=react&logoColor=white" alt = "react" />
-  <img src = "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt = "vite" />
-  <img src = "https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt = "vitest" />
-  <img src = "https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt = "react-native" />
-  <img src = "https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt = "expo" />
-  <img src = "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt = "next" />
-  <img src = "https://img.shields.io/badge/TestingLibrary-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" alt = "testinglibrary" />
-  <img src = "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt = "nodedotjs" />
-  <img src = "https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt = "express" />
-  <img src = "https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt = "jest" />
-  <img src = "https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt = "laravel" />
+  <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt = "tailwindcss" />
+  </a>
+
+  <a href="https://es.react.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/React-0088CC?style=for-the-badge&logo=react&logoColor=white" alt = "react" />
+  </a>
+
+  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt = "vite" />
+  </a>
+
+  <a href="https://vitest.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt = "vitest" />
+  </a>
+
+  <a href="https://reactnative.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt = "react-native" />
+  </a>
+
+  <a href="https://expo.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt = "expo" />
+  </a>
+
+  <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt = "next" />
+  </a>
+
+  <a href="https://vitest.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/TestingLibrary-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" alt = "testinglibrary" />
+  </a>
+
+  <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt = "nodedotjs" />
+  </a>
+
+  <a href="https://www.express.com" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt = "express" />
+  </a>
+
+  <a href="https://jestjs.io" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt = "jest" />
+  </a>
+
+  <a href="https://laravel.com" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt = "laravel" />
+  </a>
 </p>
 
 - <h3>Bibliotecas</h3>
