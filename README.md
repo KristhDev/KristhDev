@@ -1,3 +1,100 @@
 <div align="center">
-  <h1 align="center">Hola, soy <a href="https://github.com/KristhDev">Kristhian Ferrufino</a></h1>
+  <h1 align="center">Hola, soy <a href="https://github.com/KristhDev">Kristhian Ferrufino 👋</a></h1>
 </div>
+
+<h2>Sobre Mi</h2>
+
+Un apasionado **desarrollador web** y estudiante de último año de **Ingeniería en Sistemas de Computación**. Mi amor por la **programación y el diseño UI** me ha llevado 
+a embarcarme en este mundo y a buscar constantemente nuevas formas de **mejorar mis habilidades.**
+
+Me considero una persona en **constante aprendizaje**, siempre dispuesta a **enfrentar desafíos** y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
+Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones que **satisfacen a los usuarios.**
+
+<h2>Habiliadades y Herramientas</h2>
+
+- <h3>Lenguajes</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt = "html" />
+  <img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt = "css" />
+  <img src = "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt = "scss" />
+  <img src = "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt = "js" />
+  <img src = "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt = "ts" />
+  <img src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt = "php" />
+</p>
+
+- <h3>Frameworks</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt = "tailwindcss" />
+  <img src = "https://img.shields.io/badge/React-0088CC?style=for-the-badge&logo=react&logoColor=white" alt = "react" />
+  <img src = "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt = "vite" />
+  <img src = "https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt = "vitest" />
+  <img src = "https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt = "react-native" />
+  <img src = "https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt = "expo" />
+  <img src = "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt = "next" />
+  <img src = "https://img.shields.io/badge/TestingLibrary-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" alt = "testinglibrary" />
+  <img src = "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt = "nodedotjs" />
+  <img src = "https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt = "express" />
+  <img src = "https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt = "jest" />
+  <img src = "https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt = "laravel" />
+</p>
+
+- <h3>Bibliotecas</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt = "axios" />
+  <img src = "https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt = "redux" />
+  <img src = "https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt = "socketdotio" />
+  <img src = "https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white" alt = "sequelize" />
+  <img src = "https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt = "mongoose" />
+</p>
+
+- <h3>Bases de Datos</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt = "mysql" />
+  <img src = "https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt = "mongodb" />
+  <img src = "https://img.shields.io/badge/FireStore-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt = "firestore" />
+</p>
+
+- <h3>BAAS</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt = "supabase" />
+  <img src = "https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt = "firebase" />
+</p>
+
+- <h3>Plataformas</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt = "docker" />
+</p>
+
+- <h3>Control de Versiones</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt = "git" />
+  <img src = "https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white" alt = "github" />
+</p>
+
+- <h3>Programas</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt = "adobephotoshop" />
+  <img src = "https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt = "figma" />
+  <img src = "https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt = "visualstudiocode" />
+  <img src = "https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt = "androidstudio" />
+  <img src = "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt = "postman" />
+  <img src = "https://img.shields.io/badge/Xampp-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt = "xampp" />
+  <img src = "https://img.shields.io/badge/MongoDBCompass-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt = "mongodbcompass" />
+</p>
+
+- <h3>En aprendizaje</h3>
+
+<p>
+  <img src = "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt = "docker" />
+  <img src = "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt = "postgresql" />
+  <img src = "https://img.shields.io/badge/SurrealDB-FF00A0?style=for-the-badge&logo=surrealdb&logoColor=white" alt = "surrealdb" />
+  <img src = "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt = "flutter" />
+</p>
