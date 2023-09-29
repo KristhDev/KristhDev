@@ -1,8 +1,16 @@
 <div align="center">
   <h1 align="center">Hola, soy <a href="https://github.com/KristhDev">Kristhian Ferrufino 👋</a></h1>
+
+  <br/>
+
+  <img alt="HelloWorld" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1696013208/portfolio/gwyneth-balucio-hello-world-2_tybd9h.gif" />
 </div>
 
 <h2>Sobre Mi</h2>
+
+<a target="_blank" align="center">
+  <img align="right" width="400" alt="GIF" src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279">
+</a>
 
 Un apasionado **desarrollador web** y estudiante de último año de **Ingeniería en Sistemas de Computación**. Mi amor por la **programación y el diseño UI** me ha llevado 
 a embarcarme en este mundo y a buscar constantemente nuevas formas de **mejorar mis habilidades.**
@@ -10,12 +18,17 @@ a embarcarme en este mundo y a buscar constantemente nuevas formas de **mejorar 
 Me considero una persona en **constante aprendizaje**, siempre dispuesta a **enfrentar desafíos** y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
 Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones que **satisfacen a los usuarios.**
 
+<br/>
+
 <h2>Habiliadades y Herramientas</h2>
 
 - <h3>Lenguajes</h3>
 
 <p>
-  <img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt = "html" />
+  <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt = "html" />
+  </a>
+
   <img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt = "css" />
   <img src = "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt = "scss" />
   <img src = "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt = "js" />
