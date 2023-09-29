@@ -10,14 +10,10 @@
 
 <a target="_blank" align="center">
   <img align="right" width="400" alt="GIF" src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" />
-  <br/>
-  <br/>
+  &nbsp;
 </a>
 
-
 <p>
-  <br/>
-  
   Un apasionado <strong>desarrollador web</strong> y estudiante de último año de <strong>Ingeniería en Sistemas de Computación</strong>. Mi amor por la <strong>programación y el diseño UI</strong> 
   me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de <strong>mejorar mis habilidades.</strong>
 </p>
