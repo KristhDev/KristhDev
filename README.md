@@ -13,11 +13,15 @@
   &nbsp;
 </a>
 
-Un apasionado **desarrollador web** y estudiante de último año de **Ingeniería en Sistemas de Computación**. Mi amor por la **programación y el diseño UI** 
-me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de **mejorar mis habilidades.**
+<p>
+  Un apasionado <strong>desarrollador web</strong> y estudiante de último año de <strong>Ingeniería en Sistemas de Computación</strong>. Mi amor por la <strong>programación y el diseño UI</strong> 
+  me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de <strong>mejorar mis habilidades.</strong>
+</p>
 
-Me considero una persona en **constante aprendizaje**, siempre dispuesta a **enfrentar desafíos** y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
-Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones que **satisfacen a los usuarios.**
+<p>
+  Me considero una persona en <strong>constante aprendizaje</strong>, siempre dispuesta a <strong>enfrentar desafíos</strong> y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
+  Con <strong>perseverancia y resiliencia</strong>, busco dar lo mejor de mi creando soluciones que <strong>satisfacen a los usuarios.</strong>
+</p>
 
 <br/>
 
