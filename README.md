@@ -6,7 +6,7 @@
   <img alt="HelloWorld" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1696013208/portfolio/gwyneth-balucio-hello-world-2_tybd9h.gif" />
 </div>
 
-<h2>Sobre Mi</h2>
+<h2>🧑🏻‍💻 Sobre Mi</h2>
 
 <a target="_blank" align="center">
   <img align="right" width="400" alt="GIF" src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" />
@@ -21,7 +21,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 
 <br/>
 
-<h2>Habiliadades y Herramientas</h2>
+<h2>🛠️ Habiliadades y Herramientas</h2>
 
 - <h3>Lenguajes</h3>
 
@@ -160,4 +160,17 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
   <img src = "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt = "postgresql" />
   <img src = "https://img.shields.io/badge/SurrealDB-FF00A0?style=for-the-badge&logo=surrealdb&logoColor=white" alt = "surrealdb" />
   <img src = "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt = "flutter" />
+</p>
+
+<br />
+
+<h2>⚙️ GitHub Analytics</h2>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/KristhDev">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KristhDev&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&bg_color=0a1817"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KristhDev&layout=compact&langs_count=8&theme=gotham&bg_color=0a1817"/>
+  </a>
 </p>
