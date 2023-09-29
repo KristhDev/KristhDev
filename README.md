@@ -6,28 +6,24 @@
   <img alt="HelloWorld" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1696013208/portfolio/gwyneth-balucio-hello-world-2_tybd9h.gif" />
 </div>
 
-<h2>🧑🏻‍💻 Sobre Mi</h2>
+## 🧑🏻‍💻 Sobre Mi
 
 <a target="_blank" align="center">
   <img align="right" width="400" alt="GIF" src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" />
   &nbsp;
 </a>
 
-<p>
-  Un apasionado <strong>desarrollador web</strong> y estudiante de último año de <strong>Ingeniería en Sistemas de Computación</strong>. Mi amor por la <strong>programación y el diseño UI</strong> 
-  me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de <strong>mejorar mis habilidades.</strong>
-</p>
+Un apasionado **desarrollador web** y estudiante de último año de **Ingeniería en Sistemas de Computación**. Mi amor por la **programación y el diseño UI** 
+me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de **mejorar mis habilidades.**
 
-<p>
-  Me considero una persona en <strong>constante aprendizaje</strong>, siempre dispuesta a <strong>enfrentar desafíos</strong> y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
-  Con <strong>perseverancia y resiliencia</strong>, busco dar lo mejor de mi creando soluciones que <strong>satisfacen a los usuarios.</strong>
-</p>
+Me considero una persona en **constante aprendizaje**, siempre dispuesta a **enfrentar desafíos** y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
+Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones que **satisfacen a los usuarios.**
 
 <br/>
 
-<h2>🛠️ Habiliadades y Herramientas</h2>
+## 🛠️ Habiliadades y Herramientas
 
-- <h3>Lenguajes</h3>
+- ### Lenguajes
 
 <p>
   <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
@@ -55,7 +51,7 @@
   </a>
 </p>
 
-- <h3>Frameworks</h3>
+- ### Frameworks
 
 <p>
   <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">
@@ -107,7 +103,7 @@
   </a>
 </p>
 
-- <h3>Bibliotecas</h3>
+- ### Bibliotecas
 
 <p>
   <img src = "https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt = "axios" />
@@ -117,7 +113,7 @@
   <img src = "https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt = "mongoose" />
 </p>
 
-- <h3>Bases de Datos</h3>
+- ### Bases de Datos
 
 <p>
   <img src = "https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt = "mysql" />
@@ -125,27 +121,27 @@
   <img src = "https://img.shields.io/badge/FireStore-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt = "firestore" />
 </p>
 
-- <h3>BAAS</h3>
+- ### BAAS
 
 <p>
   <img src = "https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt = "supabase" />
   <img src = "https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt = "firebase" />
 </p>
 
-- <h3>Plataformas</h3>
+- ### Plataformas
 
 <p>
   <img src = "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt = "docker" />
 </p>
 
-- <h3>Control de Versiones</h3>
+- ### Control de Versiones
 
 <p>
   <img src = "https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt = "git" />
   <img src = "https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white" alt = "github" />
 </p>
 
-- <h3>Programas</h3>
+- ### Programas
 
 <p>
   <img src = "https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt = "adobephotoshop" />
@@ -157,7 +153,7 @@
   <img src = "https://img.shields.io/badge/MongoDBCompass-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt = "mongodbcompass" />
 </p>
 
-- <h3>En aprendizaje</h3>
+- ### En aprendizaje
 
 <p>
   <img src = "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt = "docker" />
@@ -168,7 +164,7 @@
 
 <br />
 
-<h2>⚙️ GitHub Analytics</h2>
+## ⚙️ GitHub Analytics
 
 <br/>
 
