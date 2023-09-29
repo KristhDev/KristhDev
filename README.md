@@ -6,9 +6,9 @@
   <img alt="HelloWorld" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1696013208/portfolio/gwyneth-balucio-hello-world-2_tybd9h.gif" />
 </div>
 
-## 🧑🏻‍💻 Sobre Mi
+<h2>🧑🏻‍💻 Sobre Mi</h2>
 
-<a target="_blank" align="center">Q
+<a target="_blank" align="center">
   <img align="right" width="400" alt="GIF" src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" />
   &nbsp;
 </a>
@@ -21,7 +21,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 
 <br/>
 
-## 🛠️ Habiliadades y Herramientas
+<h2>🛠️ Habiliadades y Herramientas</h2>
 
 - <h3>Lenguajes</h3>
 
@@ -164,7 +164,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 
 <br />
 
-## ⚙️ GitHub Analytics
+<h2>⚙️ GitHub Analytics</h2>
 
 <br/>
 
