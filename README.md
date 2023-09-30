@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center">Hola, soy <a href="https://github.com/KristhDev">Kristhian Ferrufino 👋</a></h1>
+  <h1 align="center">Hola, soy <a href="https://github.com/KristhDev">Kristhian Ferrufino 👋🏻</a></h1>
 
   <br/>
 
@@ -174,3 +174,19 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KristhDev&layout=compact&langs_count=8&theme=gotham&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF" />
   </a>
 </p>
+
+<br/>
+
+## 🫱🏻‍🫲🏻 Contactame
+
+<br/>
+
+<p>
+  <img src = "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt = "facebook" />
+  <img src = "https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt = "x(twitter)" />
+  <img src = "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt = "instagram" />
+  <img src = "https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt = "linkedin" />
+  <img src = "https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt = "gmail" />
+</p>
+
+<br/>
