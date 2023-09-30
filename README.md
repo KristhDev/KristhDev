@@ -8,6 +8,8 @@
   </a>
 </div>
 
+<br/>
+
 ## 🧑🏻‍💻 Sobre Mi
 
 <a target="_blank" align="center">
@@ -20,6 +22,30 @@ me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas
 
 Me considero una persona en **constante aprendizaje**, siempre dispuesta a **enfrentar desafíos** y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
 Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones que **satisfacen a los usuarios.**
+
+<br/>
+
+## 💻 Últimos Proyectos
+
+<br/>
+
+<p align="center">  
+  <div align="center">
+    <a href="https://github.com/KristhDev/JW-Reports">
+      <img 
+        align="center" 
+        src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=JW-Reports&theme=gotham&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF&icon_color=8ae22e" 
+      />
+    </a>
+  
+  <a href="https://github.com/KristhDev/MakeTasks">
+      <img 
+        align="center" 
+        src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=MakeTasks&theme=gotham&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF&icon_color=8ae22e" 
+      />
+    </a>
+  </div>
+</p>
 
 <br/>
 
