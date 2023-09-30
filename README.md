@@ -170,7 +170,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 
 <p align="center">
   <a href="https://github.com/KristhDev">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KristhDev&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&bg_color=0a1817&hide_border=true&locale=es&title_color=bef2f9&text_color=FFFFFF&icon_color=8ae22e" />
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KristhDev&layout=compact&langs_count=8&theme=gotham&bg_color=0a1817&hide_border=true&locale=es&title_color=bef2f9&text_color=FFFFFF" />
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KristhDev&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF&icon_color=8ae22e" />
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KristhDev&layout=compact&langs_count=8&theme=gotham&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF" />
   </a>
 </p>
