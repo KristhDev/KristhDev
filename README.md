@@ -279,7 +279,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     <img src = "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt = "facebook" />
   </a>
 
-  <a href="https://twitter.com/kristhdev" target="_blank" rel="noopener noreferrer">
+  <a href="https://twitter.com/kristh_ferr_dev" target="_blank" rel="noopener noreferrer">
     <img src = "https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt = "x(twitter)" />
   </a>
 
