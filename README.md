@@ -61,7 +61,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
       <h3 align="center">AssistControl</h3> 
       <p align="left">Es una aplicación web para el Centro Tecnológico Marcos Homero Guatemala INATEC que facilita los procesos académicos que realizan los docentes y personal de registro. A los maestros les permite llevar un control de asistencia de los grupos que tengan asignados en ese momento y a registro(administrac...</p> 
       <div> 
-        <a href="https://kristhdev.vercel.app/projects/assistcontrol target="_blank" rel="noopener noreferrer"> 
+        <a href="https://kristhdev.vercel.app/projects/assistcontrol" target="_blank" rel="noopener noreferrer"> 
           <img alt="AssistControl" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
         </a> 
       </div> 
@@ -71,7 +71,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
       <h3 align="center">JW Reports</h3> 
       <p align="left">Es una aplicación para gestionar las informes de predicación, revisitas y cursos bíblicos de los Testigos de Jehová. Permite llevar un control de la actividad que se realiza en la predicación y dar seguimiento a las personas interesadas en el mensaje, ya sea mediante revisitas o cursos. Muchos herma...</p> 
       <div> 
-        <a href="https://kristhdev.vercel.app/projects/jw-reports target="_blank" rel="noopener noreferrer"> 
+        <a href="https://kristhdev.vercel.app/projects/jw-reports" target="_blank" rel="noopener noreferrer"> 
           <img alt="JW Reports" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
         </a> 
         <a href="https://github.com/KristhDev/JW-Reports" target="_blank" rel="noopener noreferrer"> 
@@ -87,7 +87,7 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
       <h3 align="center">TecnicSearch</h3> 
       <p align="left">Es una aplicación para la oferta de los servicios del Instituto Nacional Tecnológico INATEC, los usuarios comunes y empresas se contactan con administración para solicitar el servicio acorde a sus necesidades y dejar sus calificaciones al personal que trabajo para ellos, los técnicos egresados puede...</p> 
       <div> 
-        <a href="https://kristhdev.vercel.app/projects/tecnicsearch target="_blank" rel="noopener noreferrer"> 
+        <a href="https://kristhdev.vercel.app/projects/tecnicsearch" target="_blank" rel="noopener noreferrer"> 
           <img alt="TecnicSearch" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
         </a> 
         <a href="https://www.mediafire.com/file/h0yvgolvc3k3aed/tecnicsearch.apk/file" target="_blank" rel="noopener noreferrer"> 
