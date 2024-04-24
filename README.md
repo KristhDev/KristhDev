@@ -36,16 +36,27 @@
 
 ## 🧑🏻‍💻 Sobre Mi
 
-<a target="_blank" align="center">
-  <img align="right" width="420" alt="GIF" src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" />
-  &nbsp;
-</a>
-
-Un apasionado **desarrollador web** y estudiante de último año de **Ingeniería en Sistemas de Computación**. Mi amor por la **programación y el diseño UI** 
-me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de **mejorar mis habilidades.**
-
-Me considero una persona en **constante aprendizaje**, siempre dispuesta a **enfrentar desafíos** y adaptarme a las cambiantes circunstancias del mundo tecnológico. 
-Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones que **satisfacen a los usuarios.**
+<table align="center">
+  <tr border="none">
+    <td width="55%" align="left">
+      Un apasionado <strong>desarrollador web</strong> y estudiante de último año de <strong>Ingeniería en Sistemas de Computación</strong>. Mi amor por la 
+      <strong>programación y el diseño UI</strong> me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de <strong>mejorar 
+      mis habilidades.</strong>
+      <br /><br />
+      Me considero una persona en <strong>constante aprendizaje</strong>, siempre dispuesta a <strong>enfrentar desafíos</strong> y adaptarme a las 
+      cambiantes  circunstancias del mundo tecnológico. Con <strong>perseverancia y resiliencia</strong>, busco dar lo mejor de mi creando 
+      soluciones que <strong>satisfacen a los usuarios.</strong>
+    </td>
+    <td width="45%" align="center">
+      <a target="_blank" align="center">
+        <img 
+          alt="GIF"
+          src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
