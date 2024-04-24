@@ -1,0 +1,16 @@
+{
+  "name": "update-readme.md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update:projects": "node ./src/scripts/update-projects.js"
+  },
+  "keywords": [],
+  "author": "KristhDev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
