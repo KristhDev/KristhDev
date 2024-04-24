@@ -266,5 +266,3 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     </td>
   </tr>
 </table>
-
-<br/>
