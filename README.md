@@ -53,26 +53,51 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 
 <br/>
 
-<table align="center">
-  <tr border="none">
-    <td width="50%" align="center">
-      <a href="https://github.com/KristhDev/ReactTasks-backend">
-        <img 
-          align="center" 
-          src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=ReactTasks-backend&bg_color=FFFFFF&title_color=2C3240&text_color=8A8B8C&icon_color=5E85BB" 
-        />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/KristhDev/JW-Reports">
-        <img 
-          align="center" 
-          src="https://github-readme-stats-anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=JW-Reports&g_color=FFFFFF&title_color=2C3240&text_color=8A8B8C&icon_color=5E85BB" 
-        />
-      </a>
-    </td>
-  </tr>
+<!-- PROJECTS:START -->
+<table align="center"> 
+  <tr border="none"> 
+    <td align="center" width="33%"> 
+      <img alt="AssistControl" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713576102/portfolio/projects/fbhm3rnedmhqpgfgrkox.jpg" /> 
+      <h3 align="center">AssistControl</h3> 
+      <p align="left">Es una aplicación web para el Centro Tecnológico Marcos Homero Guatemala INATEC que facilita los procesos académicos que realizan los docentes y personal de registro. A los maestros les permite llevar un control de asistencia de los grupos que tengan asignados en ese momento y a registro(administrac...</p> 
+      <div> 
+        <a href="https://kristhdev.vercel.app/projects/assistcontrol target="_blank" rel="noopener noreferrer"> 
+          <img alt="AssistControl" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
+        </a> 
+      </div> 
+    </td> 
+    <td align="center" width="33%"> 
+      <img alt="JW Reports" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713575645/portfolio/projects/x3wtaaxm92uepc3bgczn.png" /> 
+      <h3 align="center">JW Reports</h3> 
+      <p align="left">Es una aplicación para gestionar las informes de predicación, revisitas y cursos bíblicos de los Testigos de Jehová. Permite llevar un control de la actividad que se realiza en la predicación y dar seguimiento a las personas interesadas en el mensaje, ya sea mediante revisitas o cursos. Muchos herma...</p> 
+      <div> 
+        <a href="https://kristhdev.vercel.app/projects/jw-reports target="_blank" rel="noopener noreferrer"> 
+          <img alt="JW Reports" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
+        </a> 
+        <a href="https://github.com/KristhDev/JW-Reports" target="_blank" rel="noopener noreferrer"> 
+          <img alt="JW Reports" src="https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|" /> 
+        </a> 
+        <a href="https://www.mediafire.com/file/m3l7ya8k0clhrh3/JW_Reports_2.0.0.apk/file" target="_blank" rel="noopener noreferrer"> 
+          <img alt="JW Reports" src="https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|" /> 
+        </a> 
+      </div> 
+    </td> 
+    <td align="center" width="33%"> 
+      <img alt="TecnicSearch" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713575178/portfolio/projects/kqzrwyodcjhxe0si44on.png" /> 
+      <h3 align="center">TecnicSearch</h3> 
+      <p align="left">Es una aplicación para la oferta de los servicios del Instituto Nacional Tecnológico INATEC, los usuarios comunes y empresas se contactan con administración para solicitar el servicio acorde a sus necesidades y dejar sus calificaciones al personal que trabajo para ellos, los técnicos egresados puede...</p> 
+      <div> 
+        <a href="https://kristhdev.vercel.app/projects/tecnicsearch target="_blank" rel="noopener noreferrer"> 
+          <img alt="TecnicSearch" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
+        </a> 
+        <a href="https://www.mediafire.com/file/h0yvgolvc3k3aed/tecnicsearch.apk/file" target="_blank" rel="noopener noreferrer"> 
+          <img alt="TecnicSearch" src="https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|" /> 
+        </a> 
+      </div> 
+    </td> 
+  </tr> 
 </table>
+<!-- PROJECTS:END -->
 
 <br/>
 
