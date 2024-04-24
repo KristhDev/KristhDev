@@ -29,23 +29,26 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 
 <br/>
 
-<p align="center">  
-  <div align="center">
-    <a href="https://github.com/KristhDev/JW-Reports">
-      <img 
-        align="center" 
-        src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=JW-Reports&theme=gotham&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF&icon_color=8ae22e" 
-      />
-    </a>
-  
-  <a href="https://github.com/KristhDev/MakeTasks">
-      <img 
-        align="center" 
-        src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=MakeTasks&theme=gotham&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF&icon_color=8ae22e" 
-      />
-    </a>
-  </div>
-</p>
+<table align="center">
+  <tr border="none">
+    <td width="50%" align="center">
+      <a href="https://github.com/KristhDev/ReactTasks-backend">
+        <img 
+          align="center" 
+          src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=ReactTasks-backend&bg_color=FFFFFF&title_color=2C3240&text_color=8A8B8C&icon_color=5E85BB" 
+        />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/KristhDev/JW-Reports">
+        <img 
+          align="center" 
+          src="https://github-readme-stats-anuraghazra1.vercel.app/api/pin/?username=KristhDev&repo=JW-Reports&g_color=FFFFFF&title_color=2C3240&text_color=8A8B8C&icon_color=5E85BB" 
+        />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -94,10 +97,6 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     <img src = "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt = "vite" />
   </a>
 
-  <a href="https://vitest.dev" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt = "vitest" />
-  </a>
-
   <a href="https://reactnative.dev" target="_blank" rel="noopener noreferrer">
     <img src = "https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt = "react-native" />
   </a>
@@ -110,12 +109,8 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     <img src = "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt = "next" />
   </a>
 
-  <a href="https://vitest.dev" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/TestingLibrary-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" alt = "testinglibrary" />
-  </a>
-
   <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt = "nodedotjs" />
+    <img src = "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt = "nodedjs" />
   </a>
 
   <a href="https://www.express.com" target="_blank" rel="noopener noreferrer">
@@ -126,32 +121,16 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     <img src = "https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt = "jest" />
   </a>
 
+  <a href="https://vitest.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt = "vitest" />
+  </a>
+
+  <a href="https://vitest.dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/TestingLibrary-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" alt = "testinglibrary" />
+  </a>
+
   <a href="https://laravel.com" target="_blank" rel="noopener noreferrer">
     <img src = "https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt = "laravel" />
-  </a>
-</p>
-
-- ### Bibliotecas
-
-<p>
-  <a href="https://axios-http.com/docs/intro" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt = "axios" />
-  </a>
-
-  <a href="https://redux-toolkit.js.org" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt = "redux" />
-  </a>
-
-  <a href="https://socket.io" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt = "socketdotio" />
-  </a>
-
-  <a href="https://sequelize.org" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white" alt = "sequelize" />
-  </a>
-
-  <a href="https://mongoosejs.com" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt = "mongoose" />
   </a>
 </p>
 
@@ -174,20 +153,12 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 - ### BAAS
 
 <p>
-  <a href="https://supabase.com" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt = "supabase" />
-  </a>
-
   <a href="https://firebase.google.com" target="_blank" rel="noopener noreferrer">
     <img src = "https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt = "firebase" />
   </a>
-</p>
-
-- ### Plataformas
-
-<p>
-  <a href="https://www.docker.com" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt = "docker" />
+  
+  <a href="https://supabase.com" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt = "supabase" />
   </a>
 </p>
 
@@ -249,10 +220,6 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
   <a href="https://surrealdb.com" target="_blank" rel="noopener noreferrer">
     <img src = "https://img.shields.io/badge/SurrealDB-FF00A0?style=for-the-badge&logo=surrealdb&logoColor=white" alt = "surrealdb" />
   </a>
-
-  <a href="https://flutter.dev" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt = "flutter" />
-  </a>
 </p>
 
 <br />
@@ -261,12 +228,20 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
 
 <br/>
 
-<p align="center">
-  <a href="https://github.com/KristhDev">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KristhDev&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF&icon_color=8ae22e" />
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KristhDev&layout=compact&langs_count=8&theme=gotham&bg_color=0a1817&hide_border=true&title_color=bef2f9&text_color=FFFFFF" />
-  </a>
-</p>
+<table align="center">
+  <tr border="none">
+    <td width="50%" align="center">
+      <img src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713936662/portfolio/Dev_productivity_jplhhi.svg" alt="Dev activity" width="400" />  
+    </td>
+    <td width="50%" align="center">
+     <a>
+        <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KristhDev&show_icons=true&include_all_commits=true&count_private=true&bg_color=FFFFFF&title_color=2C3240&text_color=8A8B8C&icon_color=5E85BB" />
+        <br/>
+        <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KristhDev&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=2C3240&text_color=8A8B8C" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
