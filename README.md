@@ -112,7 +112,7 @@
 
 <br/>
 
-## 🛠️ Habiliadades y Herramientas
+## 🛠️ Habilidades y Herramientas
 
 - ### Lenguajes
 
