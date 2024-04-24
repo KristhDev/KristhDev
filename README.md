@@ -8,6 +8,28 @@
   </a>
 </div>
 
+<p>
+  <a href="https://www.facebook.com/kristhian.ferrufino" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt = "facebook" />
+  </a>
+
+  <a href="https://twitter.com/kristh_ferr_dev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt = "x(twitter)" />
+  </a>
+
+  <a href="https://www.instagram.com/kristhdev" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt = "instagram" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/kristhian-ferrufino-528bb4235" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt = "linkedin" />
+  </a>
+
+  <a href="mailto:kristhdev@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img src = "https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt = "gmail" />
+  </a>
+</p>
+
 <br/>
 
 ## 🧑🏻‍💻 Sobre Mi
@@ -242,33 +264,5 @@ Con **perseverancia y resiliencia**, busco dar lo mejor de mi creando soluciones
     </td>
   </tr>
 </table>
-
-<br/>
-
-## 🫱🏻‍🫲🏻 Contactame
-
-<br/>
-
-<p>
-  <a href="https://www.facebook.com/kristhian.ferrufino" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt = "facebook" />
-  </a>
-
-  <a href="https://twitter.com/kristh_ferr_dev" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt = "x(twitter)" />
-  </a>
-
-  <a href="https://www.instagram.com/kristhdev" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt = "instagram" />
-  </a>
-
-  <a href="https://www.linkedin.com/in/kristhian-ferrufino-528bb4235" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt = "linkedin" />
-  </a>
-
-  <a href="mailto:kristhdev@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img src = "https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt = "gmail" />
-  </a>
-</p>
 
 <br/>
