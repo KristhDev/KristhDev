@@ -38,7 +38,7 @@
 
 <table align="center">
   <tr border="none">
-    <td width="50%" align="left">
+    <td width="45%" align="left">
       Un apasionado <strong>desarrollador web</strong> y estudiante de último año de <strong>Ingeniería en Sistemas de Computación</strong>. Mi amor por la 
       <strong>programación y el diseño UI</strong> me ha llevado a embarcarme en este mundo y a buscar constantemente nuevas formas de <strong>mejorar 
       mis habilidades.</strong>
@@ -47,7 +47,7 @@
       cambiantes  circunstancias del mundo tecnológico. Con <strong>perseverancia y resiliencia</strong>, busco dar lo mejor de mi creando 
       soluciones que <strong>satisfacen a los usuarios.</strong>
     </td>
-    <td width="50%" align="center">
+    <td width="55%" align="center">
       <a target="_blank" align="center">
         <img 
           alt="GIF"
