@@ -4,7 +4,7 @@
   <br/>
 
   <a target="_blank">
-    <img alt="HelloWorld" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1696013208/portfolio/gwyneth-balucio-hello-world-2_tybd9h.gif" />
+    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713935262/portfolio/Banner_Github_na7hqr.png" />
   </a>
 </div>
 
