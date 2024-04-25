@@ -12,9 +12,7 @@ const updateProjects = async () => {
         const projects = await getLastProjects();
 
         let projectsTable = '<table align="center"> \n';
-        projectsTable += '  <tr border="none"> \n';
         projectsTable += projects.join('');
-        projectsTable += '  </tr> \n';
         projectsTable += '</table>';
 
         const readmeContent = loadReadme();
