@@ -70,7 +70,7 @@
     <td align="center" width="33%"> 
       <img alt="AssistControl" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713576102/portfolio/projects/fbhm3rnedmhqpgfgrkox.jpg" /> 
       <h3 align="center">AssistControl</h3> 
-      <p align="left" style="min-height: 220px;">Es una aplicación web para el Centro Tecnológico Marcos Homero Guatemala INATEC que facilita los procesos académicos que realizan los docentes y personal de registro. A los maestros les permite llevar un control de asistencia de los grupos que tengan asignados en ese momento y a registro(administrac...</p> 
+      <p align="left" height="220px">Es una aplicación web para el Centro Tecnológico Marcos Homero Guatemala INATEC que facilita los procesos académicos que realizan los docentes y personal de registro. A los maestros les permite llevar un control de asistencia de los grupos que tengan asignados en ese momento y a registro(administrac...</p> 
       <div> 
         <a href="https://kristhdev.vercel.app/projects/assistcontrol" target="_blank" rel="noopener noreferrer"> 
           <img alt="AssistControl" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
@@ -80,7 +80,7 @@
     <td align="center" width="33%"> 
       <img alt="JW Reports" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713575645/portfolio/projects/x3wtaaxm92uepc3bgczn.png" /> 
       <h3 align="center">JW Reports</h3> 
-      <p align="left" style="min-height: 220px;">Es una aplicación para gestionar las informes de predicación, revisitas y cursos bíblicos de los Testigos de Jehová. Permite llevar un control de la actividad que se realiza en la predicación y dar seguimiento a las personas interesadas en el mensaje, ya sea mediante revisitas o cursos. Muchos herma...</p> 
+      <p align="left" height="220px">Es una aplicación para gestionar las informes de predicación, revisitas y cursos bíblicos de los Testigos de Jehová. Permite llevar un control de la actividad que se realiza en la predicación y dar seguimiento a las personas interesadas en el mensaje, ya sea mediante revisitas o cursos. Muchos herma...</p> 
       <div> 
         <a href="https://kristhdev.vercel.app/projects/jw-reports" target="_blank" rel="noopener noreferrer"> 
           <img alt="JW Reports" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
@@ -96,7 +96,7 @@
     <td align="center" width="33%"> 
       <img alt="TecnicSearch" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713575178/portfolio/projects/kqzrwyodcjhxe0si44on.png" /> 
       <h3 align="center">TecnicSearch</h3> 
-      <p align="left" style="min-height: 220px;">Es una aplicación para la oferta de los servicios del Instituto Nacional Tecnológico INATEC, los usuarios comunes y empresas se contactan con administración para solicitar el servicio acorde a sus necesidades y dejar sus calificaciones al personal que trabajo para ellos, los técnicos egresados puede...</p> 
+      <p align="left" height="220px">Es una aplicación para la oferta de los servicios del Instituto Nacional Tecnológico INATEC, los usuarios comunes y empresas se contactan con administración para solicitar el servicio acorde a sus necesidades y dejar sus calificaciones al personal que trabajo para ellos, los técnicos egresados puede...</p> 
       <div> 
         <a href="https://kristhdev.vercel.app/projects/tecnicsearch" target="_blank" rel="noopener noreferrer"> 
           <img alt="TecnicSearch" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> 
