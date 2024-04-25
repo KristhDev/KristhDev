@@ -11,7 +11,7 @@ const getLastProjects = async () => {
 
             template += `      <img alt="${ project.name }" src="${ project.image }" /> \n`;
             template += `      <h3 align="center">${ project.name }</h3> \n`;
-            template += '      <p align="left">' + (project.description.length > 180 ? project.description.substring(0, 180) + '...' : project.description) + '</p> \n';
+            template += '      <p align="left">' + (project.description.length > 220 ? project.description.substring(0, 220) + '...' : project.description) + '</p> \n';
 
             template += '      <div> \n';
 
