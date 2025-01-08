@@ -1,12 +1,13 @@
-<div align="center">
-  <h1 align="center">Hola, soy <a href="https://github.com/KristhDev">Kristhian Ferrufino 👋🏻</a></h1>
+<!-- BANNER_SECTION:START -->
+<div align="center">  
+  <h1 align="center">Hola, soy <a href="https://kristhdev.vercel.app">Kristhian Ferrufino 👋🏻</a></h1>  
+  <br/>  
+  <a target="_blank">  
+    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713935262/portfolio/Banner_Github_na7hqr.png" />  
+  </a>  
+</div>  
 
-  <br/>
-
-  <a target="_blank">
-    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713935262/portfolio/Banner_Github_na7hqr.png" />
-  </a>
-</div>
+<!-- BANNER_SECTION:END -->
 
 <br/>
 
