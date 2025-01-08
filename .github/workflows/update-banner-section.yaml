@@ -1,0 +1,41 @@
+name: Update profile README in banner
+
+on:
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: ./scripts
+
+jobs:
+  update-banner-section:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm i -g pnpm && pnpm install
+
+      - name: Run update banner section script
+        env:
+          PORTFOLIO_API_URL: ${{ secrets.PORTFOLIO_API_URL }}
+          PORTFOLIO_BANNER_URL: ${{ secrets.PORTFOLIO_BANNER_URL }}
+          PORTFOLIO_URL: ${{ secrets.PORTFOLIO_URL }}
+        run: pnpm run update:banner-section
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.name "KristhDev [GitHub Actions]"
+          git config --local user.email "kristhdev@gmail.com"
+          git add ../README.md
+          git commit -m "Update README.md in banner section" -a || echo "No changes to commit"
+          git push
