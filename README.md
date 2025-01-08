@@ -94,7 +94,7 @@
             <a href="https://github.com/KristhDev/JW-Reports" target="_blank" rel="noopener noreferrer"> 
               <img alt="JW Reports" src="https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|" /> 
             </a> 
-            <a href="https://www.mediafire.com/file/z0f0hl04azi4mal/JW_Reports_2.3.0.apk/file" target="_blank" rel="noopener noreferrer"> 
+            <a href="https://www.mediafire.com/file/mh6jcq1wnocz9jd/JW_Reports_2.3.1.apk/file" target="_blank" rel="noopener noreferrer"> 
               <img alt="JW Reports" src="https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|" /> 
             </a> 
           </div> 
