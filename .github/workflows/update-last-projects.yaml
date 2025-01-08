@@ -28,6 +28,7 @@ jobs:
       - name: Run update last projects script
         env:
           PORTFOLIO_API_URL: ${{ secrets.PORTFOLIO_API_URL }}
+          PORTFOLIO_BANNER_URL: ${{ secrets.PORTFOLIO_BANNER_URL }}
           PORTFOLIO_URL: ${{ secrets.PORTFOLIO_URL }}
         run: pnpm run update:last-projects
 
