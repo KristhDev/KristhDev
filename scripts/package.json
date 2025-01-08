@@ -5,12 +5,18 @@
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update:projects": "node ./src/scripts/update-projects.js"
+    "update:last-projects": "tsnd --clear src/scripts/update-last-projects.ts"
   },
   "keywords": [],
   "author": "KristhDev",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
   }
 }
