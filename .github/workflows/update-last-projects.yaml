@@ -31,10 +31,10 @@ jobs:
           PORTFOLIO_URL: ${{ secrets.PORTFOLIO_URL }}
         run: pnpm run update:last-projects
 
-      - name: Commit and push if changes
+      - name: Commit and push if changed
         run: |
+          git config --local user.name "KristhDev [GitHub Actions]"
           git config --local user.email "kristhdev@gmail.com"
-          git config --local user.name "KristhDev"
           git add ../README.md
           git commit -m "Update README.md with last projects" -a || echo "No changes to commit"
           git push
