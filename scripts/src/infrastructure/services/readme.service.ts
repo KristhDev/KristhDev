@@ -37,13 +37,13 @@ export class ReadmeService {
      * @returns {string} The banner section in Markdown format.
      */
     public static generateBannerSection(): string {
-        let template = '<div align="center">  \n';
-        template += `  <h1 align="center">Hola, soy <a href="${ env.PORTFOLIO_URL }">Kristhian Ferrufino 👋🏻</a></h1>  \n`;
-        template += '  <br/>  \n';
-        template += '  <a target="_blank">  \n';
-        template += '    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713935262/portfolio/Banner_Github_na7hqr.png" />  \n';
-        template += '  </a>  \n';
-        template += '</div>  \n';
+        let template = '<div align="center"> \n';
+        template += `  <h1 align="center">Hola, soy <a href="${ env.PORTFOLIO_URL }">Kristhian Ferrufino 👋🏻</a></h1> \n`;
+        template += '  <br/> \n';
+        template += '  <a target="_blank"> \n';
+        template += `    <img alt="Github banner Kristhian Ferrufino" width="100%" src="${ env.PORTFOLIO_BANNER_URL }" /> \n`;
+        template += '  </a> \n';
+        template += '</div> \n';
 
         return template;
     }
