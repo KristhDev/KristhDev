@@ -39,9 +39,9 @@ export class ReadmeService {
     public static generateBannerSection(): string {
         let template = '<div align="center"> \n';
         template += `  <h1 align="center">Hola, soy <a href="${ env.PORTFOLIO_URL }">Kristhian Ferrufino 👋🏻</a></h1> \n`;
-        template += '  <br/> \n';
+        template += '  <br/> \n\n';
         template += '  <a target="_blank"> \n';
-        template += `    <img alt="Github banner Kristhian Ferrufino" width="100%" src="${ env.PORTFOLIO_BANNER_URL }" /> \n`;
+        template += `    <img alt="Github banner Kristhian Ferrufino" width="100%" src="${ env.PORTFOLIO_BANNER_URL }"> \n`;
         template += '  </a> \n';
         template += '</div> \n';
 
@@ -57,43 +57,37 @@ export class ReadmeService {
      */
     public static generateProjectsTableRows(projects: ProjectEntity[]): string {
         const projectsToMarkdown = projects.map(project => {
-            let template = '    <tr border="none"> \n';
-            template += '         <td align="center"> \n';
+            let template = '  <tr border="none"> \n';
+            template += '    <td align="center"> \n';
 
-            template += `        <img align="left" alt="${ project.name }" src="${ project.image }" width="50%" /> \n`;
-            template += '        <div align="right"> \n';
-            template += `          <h3 align="center">${ project.name }</h3> \n`;
-            template += '          <p align="left">' + (project.description.length > 250 ? project.description.substring(0, 250) + '...' : project.description) + '</p> \n';
+            template += `      <img align="left" alt="${ project.name }" src="${ project.image }" width="50%"> \n`;
+            template += '      <div align="right"> \n';
+            template += `        <h3 align="center">${ project.name }</h3> \n`;
+            template += '        <p align="left"> \n';
+            template += `          ${ (project.description.length > 250 ? project.description.substring(0, 250) + '...' : project.description) } \n`;
+            template += '        </p> \n';
 
-            template += '          <div> \n';
+            template += '        <div> \n\n';
 
-            template += `            <a href="${ process.env.PORTFOLIO_URL }/projects/${ project.slug }" target="_blank" rel="noopener noreferrer"> \n`;
-            template += `              <img alt="${ project.name }" src="https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF" /> \n`;
-            template += '            </a> \n';
+            template += `[![${ project.name } Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](${ env.PORTFOLIO_URL }/projects/${ project.slug })\n`;
 
-            if (project.url || (project.repositories && project.repositories.length > 0)) {
-                if (project.repositories && project.repositories.length > 0) {
-                    template += `            <a href="${ project.repositories[0] }" target="_blank" rel="noopener noreferrer"> \n`;
-                    template += `              <img alt="${ project.name }" src="https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|" /> \n`;
-                    template += '            </a> \n';
-                }
-
-                if (project.url) {
-                    template += `            <a href="${ project.url }" target="_blank" rel="noopener noreferrer"> \n`;
-                    template += `              <img alt="${ project.name }" src="https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|" /> \n`;
-                    template += '            </a> \n';
-                }
+            if (project.repositories && project.repositories.length > 0) {
+                template += `[![${ project.name } Repositorio ](https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|)](${ project.repositories[0] })\n`;
             }
 
-            template += '          </div> \n';
+            if (project.url) {
+                template += `[![${ project.name } Url ](https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|)](${ project.url })\n`;
+            }
+
             template += '        </div> \n';
-            template += '      </td> \n';
-            template += '    </tr> \n';
+            template += '      </div> \n';
+            template += '    </td> \n';
+            template += '  </tr> \n';
 
             return template;
         });
 
-        return projectsToMarkdown.join('');
+        return projectsToMarkdown.join('\n');
     }
 
     /**
