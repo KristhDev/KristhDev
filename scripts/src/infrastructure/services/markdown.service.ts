@@ -1,7 +1,10 @@
+/* Adapters */
 import { FileSystemAdapter } from '../adapters/file-system.adapter';
 
+/* Enums */
 import { Encodings } from '../../domain/enums/encodings.enum';
 
+/* Interfaces */
 import { UpdateMarkdownSectionOptions } from '../interfaces/markdown.interfaces';
 
 export class MarkdownService {
