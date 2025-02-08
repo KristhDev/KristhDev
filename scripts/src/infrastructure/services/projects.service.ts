@@ -1,9 +1,13 @@
+/* Env */
 import { env } from '../../config/env';
 
+/* Adapters */
 import { ApiAdapter } from '../adapters/api.adapter';
 
+/* Entities */
 import { ProjectEntity } from '../../domain/entities/project.entity';
 
+/* Interfaces */
 import { LastProjectsResponse } from '../interfaces/projects.interface';
 
 export class ProjectsService {
