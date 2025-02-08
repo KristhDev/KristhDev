@@ -1,10 +1,22 @@
+/* Constants */
 import { markers, markersMessages } from '../application/constants/markers.constant';
+
+/* Errors */
 import { MarkdownError } from '../domain/errors/mardown.error';
 
+/* Services */
 import { ReadmeService } from '../infrastructure/services/readme.service';
 import { ProjectsService } from '../infrastructure/services/projects.service';
 
-const updateLastProjects = async () => {
+/**
+ * Updates the projects section in the README.md file.
+ *
+ * The projects section is the last section in the README.md file and contains
+ * a table with the latest projects.
+ *
+ * @returns {Promise<void>} A Promise that resolves when the projects section has been updated.
+ */
+const updateLastProjects = async (): Promise<void> => {
     try {
         const projects = await ProjectsService.getLatest();
         const projectsTableRows = ReadmeService.generateProjectsTableRows(projects);

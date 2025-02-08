@@ -1,3 +1,4 @@
+/* Interfaces */
 import { ModelStatus } from '../../infrastructure/interfaces/common.interfaces';
 import { ProjectEndpoint } from '../../infrastructure/interfaces/projects.interface';
 

@@ -1,8 +1,12 @@
 import fs from 'fs';
 
+/* Constants */
 import { fileSystemMessages } from '../../application/constants/file-system.constants';
 
+/* Errors */
 import { FileSystemError } from '../../domain/errors/file-system.error';
+
+/* Enums */
 import { Encodings } from '../../domain/enums/encodings.enum';
 
 export class FileSystemAdapter {

@@ -1,5 +1,7 @@
+/* Constants */
 import { apiMessages } from '../../application/constants/api.constants';
 
+/* Errors */
 import { ApiError } from '../../domain/errors/api.error';
 
 export class ApiAdapter {
