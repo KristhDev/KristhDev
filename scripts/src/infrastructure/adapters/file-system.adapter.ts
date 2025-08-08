@@ -1,15 +1,18 @@
 import fs from 'fs';
 
 /* Constants */
-import { fileSystemMessages } from '../../application/constants/file-system.constants';
+import { fileSystemMessages } from '../../application/constants';
+
+/* Contracts */
+import { FileSystemAdapterContract } from '../../domain/contracts/adapters';
 
 /* Errors */
-import { FileSystemError } from '../../domain/errors/file-system.error';
+import { FileSystemError } from '../../domain/errors';
 
 /* Enums */
-import { Encodings } from '../../domain/enums/encodings.enum';
+import { Encodings } from '../../domain/enums';
 
-export class FileSystemAdapter {
+export class FileSystemAdapter implements FileSystemAdapterContract {
     /**
      * Reads the content of a file.
      *
@@ -20,7 +23,7 @@ export class FileSystemAdapter {
      *
      * @throws {FileSystemError} If the file cannot be read.
      */
-    public static readFile(path: string, encoding: Encodings): string {
+    public readFile(path: string, encoding: Encodings): string {
         try {
             return fs.readFileSync(path, encoding);
         }
@@ -41,7 +44,7 @@ export class FileSystemAdapter {
      *
      * @throws {FileSystemError} If the file cannot be written.
      */
-    public static writeFile(path: string, content: string): void {
+    public writeFile(path: string, content: string): void {
         try {
             fs.writeFileSync(path, content);
         }
