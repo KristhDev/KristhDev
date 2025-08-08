@@ -4,7 +4,7 @@
   <br/> 
 
   <a target="_blank"> 
-    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713935262/portfolio/Banner_Github_na7hqr.png"> 
+    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1754639596/github-readme/banner-github_p5fq9t.png"> 
   </a> 
 </div> 
 
