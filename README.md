@@ -41,7 +41,7 @@
       <a target="_blank" align="center">
         <img 
           alt="GIF"
-          src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1754639598/github-readme/lofiboy_zivwxx.gif"
+          src="https://res.cloudinary.com/dzs8lf9lc/image/upload/c_thumb,w_600,g_face/v1754639598/github-readme/lofiboy_zivwxx.gif"
         />
       </a>
     </td>
