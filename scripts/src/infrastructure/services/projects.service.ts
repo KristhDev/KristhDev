@@ -1,24 +1,30 @@
 /* Env */
 import { env } from '../../config/env';
 
-/* Adapters */
-import { ApiAdapter } from '../adapters/api.adapter';
+/* Contracts */
+import { ApiAdapterContract } from '../../domain/contracts/adapters';
+import { ProjectsServiceContract } from '../../domain/contracts/services';
 
 /* Entities */
-import { ProjectEntity } from '../../domain/entities/project.entity';
+import { ProjectEntity } from '../../domain/entities';
 
 /* Interfaces */
-import { LastProjectsResponse } from '../interfaces/projects.interface';
+import { LastProjectsResponse } from '../interfaces';
 
-export class ProjectsService {
+export class ProjectsService implements ProjectsServiceContract {
+    constructor(
+        private readonly apiAdapter: ApiAdapterContract
+    ) {}
+
     /**
      * Gets the latest projects from the API
-     * @returns {Promise<ProjectEntity[]>} A promise that resolves with an array of ProjectEntity
+     *
+     * @return {Promise<ProjectEntity[]>} A promise that resolves with an array of ProjectEntity
      */
-    public static async getLatest(): Promise<ProjectEntity[]> {
+    public async getLatest(): Promise<ProjectEntity[]> {
         try {
             const url = `${ env.PORTFOLIO_API_URL }/projects/last`;
-            const { projects } = await ApiAdapter.get<LastProjectsResponse>(url);
+            const { projects } = await this.apiAdapter.get<LastProjectsResponse>(url);
 
             return projects.map(ProjectEntity.fromEndpoint);
         }

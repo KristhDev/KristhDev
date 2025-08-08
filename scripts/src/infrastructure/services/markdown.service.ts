@@ -1,26 +1,29 @@
-/* Adapters */
-import { FileSystemAdapter } from '../adapters/file-system.adapter';
+/* Contracts */
+import { FileSystemAdapterContract } from '../../domain/contracts/adapters';
+import { MarkdownServiceContract } from '../../domain/contracts/services';
 
 /* Enums */
-import { Encodings } from '../../domain/enums/encodings.enum';
+import { Encodings } from '../../domain/enums';
 
 /* Interfaces */
-import { UpdateMarkdownSectionOptions } from '../interfaces/markdown.interfaces';
+import { UpdateMarkdownSectionOptions } from '../interfaces';
 
-export class MarkdownService {
+export class MarkdownService implements MarkdownServiceContract {
+    constructor(
+        private readonly fileSystemAdapter: FileSystemAdapterContract
+    ) {}
+
     /**
      * Loads the content of a Markdown file, given the path to the file.
      *
      * @param {string} path Path to the Markdown file.
-     *
-     * @returns {string} The content of the Markdown file.
-     *
+     * @return {string} The content of the Markdown file.
      * @throws {Error} If the file cannot be read.
      */
-    public static loadMarkdown(path: string): string {
+    public loadMarkdown(path: string): string {
         try {
             const readmePath = path;
-            const readmeContent = FileSystemAdapter.readFile(readmePath, Encodings.UTF_8);
+            const readmeContent = this.fileSystemAdapter.readFile(readmePath, Encodings.UTF_8);
 
             return readmeContent;
         }
@@ -36,7 +39,7 @@ export class MarkdownService {
      *
      * @returns {string} The updated content of the Markdown file.
      */
-    public static updateMarkdownSection({ content, markers, newContent }: UpdateMarkdownSectionOptions): string {
+    public updateMarkdownSection({ content, markers, newContent }: UpdateMarkdownSectionOptions): string {
         const startContentPart = content.substring(0, markers.start);
         const endContentPart = content.substring(markers.end);
 
@@ -48,13 +51,13 @@ export class MarkdownService {
      *
      * @param {string} content The new content of the Markdown file.
      * @param {string} path Path to the Markdown file.
-     *
+     * @return {void} The updated content of the Markdown file.
      * @throws {Error} If the file cannot be written.
      */
-    public static updateMarkdown(content: string, path: string): void {
+    public updateMarkdown(content: string, path: string): void {
         try {
             const readmePath = path;
-            FileSystemAdapter.writeFile(readmePath, content);
+            this.fileSystemAdapter.writeFile(readmePath, content);
         }
         catch (error) {
             throw error;

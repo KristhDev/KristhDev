@@ -1,27 +1,33 @@
+/* Env */
 import { env } from '../../config/env';
 
-import { ProjectEntity } from '../../domain/entities/project.entity';
+/* Entities */
+import { ProjectEntity } from '../../domain/entities';
 
-import { MarkdownService } from './markdown.service';
+/* Contracts */
+import { MarkdownServiceContract, ReadmeServiceContract } from '../../domain/contracts/services';
 
-import { UpdateMarkdownSectionOptions } from '../interfaces/markdown.interfaces';
+/* Interfaces */
+import { UpdateMarkdownSectionOptions } from '../interfaces';
 
-export class ReadmeService {
+export class ReadmeService implements ReadmeServiceContract {
+    constructor(
+        private readonly markdownService: MarkdownServiceContract
+    ) {}
+
     /**
      * Loads the content of the README.md file in the root of the user's repository.
      * If no path is provided, it will try to find the README.md file in the root of
      * the user's repository.
      *
      * @param {string} [path] Path to the README.md file.
-     *
-     * @returns {string} The content of the README.md file.
-     *
+     * @return {string} The content of the README.md file.
      * @throws {Error} If the file cannot be read.
      */
-    public static loadReadme(path?: string): string {
+    public loadReadme(path?: string): string {
         try {
             const readmePath = path || `${ process.cwd() }/../README.md`;
-            return MarkdownService.loadMarkdown(readmePath);
+            return this.markdownService.loadMarkdown(readmePath);
         }
         catch (error) {
             throw error;
@@ -34,9 +40,9 @@ export class ReadmeService {
      * This section is the first section of the README.md file and contains a
      * heading with the name of the user and a link to the user's portfolio.
      *
-     * @returns {string} The banner section in Markdown format.
+     * @return {string} The banner section in Markdown format.
      */
-    public static generateBannerSection(): string {
+    public generateBannerSection(): string {
         let template = '<div align="center"> \n';
         template += `  <h1 align="center">Hola, soy <a href="${ env.PORTFOLIO_URL }">Kristhian Ferrufino 👋🏻</a></h1> \n`;
         template += '  <br/> \n\n';
@@ -52,10 +58,9 @@ export class ReadmeService {
      * Generates the rows for the projects table in the README.md file, given a list of projects.
      *
      * @param {ProjectEntity[]} projects List of projects.
-     *
-     * @returns {string} The rows of the projects table in Markdown format.
+     * @return {string} The rows of the projects table in Markdown format.
      */
-    public static generateProjectsTableRows(projects: ProjectEntity[]): string {
+    public generateProjectsTableRows(projects: ProjectEntity[]): string {
         const projectsToMarkdown = projects.map(project => {
             let template = '  <tr border="none"> \n';
             template += '    <td align="center"> \n';
@@ -91,28 +96,29 @@ export class ReadmeService {
     }
 
     /**
-     * Updates a section in a Markdown file, given the content of the file, the markers that define the section and the new content of the section.
+     * Updates a section in a Markdown file, given the content of the file, the markers that define the 
+     * section and the new content of the section.
      *
      * @param {UpdateMarkdownSectionOptions} options Options for updating the Markdown section.
-     *
-     * @returns {string} The updated content of the Markdown file.
+     * @return {string} The updated content of the Markdown file.
      */
-    public static updateSection({ content, markers, newContent }: UpdateMarkdownSectionOptions): string {
-        return MarkdownService.updateMarkdownSection({ content, markers, newContent });
+    public updateSection({ content, markers, newContent }: UpdateMarkdownSectionOptions): string {
+        return this.markdownService.updateMarkdownSection({ content, markers, newContent });
     }
 
     /**
      * Updates the content of the README.md file in the root of the user's repository.
      *
      * @param {string} content The new content of the README.md file.
-     * @param {string} [path] Path to the README.md file. If not provided, it will try to find the README.md file in the root of the user's repository.
-     *
+     * @param {string} [path] Path to the README.md file. If not provided, it will try to find the README.md file 
+     * in the root of the user's repository.
+     * @return {void} The updated content of the README.md file.
      * @throws {Error} If the file cannot be written.
      */
-    public static updateReadme(content: string, path?: string): void {
+    public updateReadme(content: string, path?: string): void {
         try {
             const readmePath = path || `${ process.cwd() }/../README.md`;
-            MarkdownService.updateMarkdown(content, readmePath);
+            this.markdownService.updateMarkdown(content, readmePath);
         }
         catch (error) {
             throw error;
