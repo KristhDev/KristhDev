@@ -4,9 +4,10 @@
   <br/> 
 
   <a target="_blank"> 
-    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713935262/portfolio/Banner_Github_na7hqr.png" /> 
+    <img alt="Github banner Kristhian Ferrufino" width="100%" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713935262/portfolio/Banner_Github_na7hqr.png"> 
   </a> 
 </div> 
+
 <!-- BANNER_SECTION:END -->
 
 <br/>
@@ -40,7 +41,7 @@
       <a target="_blank" align="center">
         <img 
           alt="GIF"
-          src="https://vinyl.lofirecords.com/cdn/shop/t/9/assets/lofiboy.gif?v=103461765217895835051680702279"
+          src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1754639598/github-readme/lofiboy_zivwxx.gif"
         />
       </a>
     </td>
