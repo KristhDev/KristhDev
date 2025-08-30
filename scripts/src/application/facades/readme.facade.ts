@@ -97,6 +97,14 @@ export class ReadmeFacade implements ReadmeFacadeContract {
         }
     }
 
+    /**
+     * Updates the skills section in the README.md file.
+     *
+     * The skills section is the section that contains the skills of the user.
+     *
+     * @return {Promise<void>} A Promise that resolves when the skills section has been updated.
+     * @throws {MarkdownError} If the skills section cannot be updated.
+     */
     public async updateSkillsSection(): Promise<void> {
         try {
             const skills = await this.skillsService.getAll();
