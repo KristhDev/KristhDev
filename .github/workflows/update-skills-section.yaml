@@ -1,4 +1,4 @@
-name: Update profile README with the last projects
+name: Update profile README with the skills
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ defaults:
     working-directory: ./scripts
 
 jobs:
-  update-last-projects:
+  update-skills-section:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,17 +25,17 @@ jobs:
       - name: Install dependencies
         run: npm i -g pnpm && pnpm install
 
-      - name: Run update last projects script
+      - name: Run update skills section script
         env:
           PORTFOLIO_API_URL: ${{ secrets.PORTFOLIO_API_URL }}
           PORTFOLIO_BANNER_URL: ${{ secrets.PORTFOLIO_BANNER_URL }}
           PORTFOLIO_URL: ${{ secrets.PORTFOLIO_URL }}
-        run: pnpm run update:last-projects
+        run: pnpm run update:skills-section
 
       - name: Commit and push if changed
         run: |
           git config --local user.name "KristhDev [GitHub Actions]"
           git config --local user.email "kristhdev@gmail.com"
           git add ../README.md
-          git commit -m "Update README.md with last projects" -a || echo "No changes to commit"
+          git commit -m "Update README.md with skills" -a || echo "No changes to commit"
           git push
