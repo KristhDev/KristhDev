@@ -1,5 +1,4 @@
 /* Interfaces */
-import { ModelStatus } from '../../infrastructure/interfaces/common.interfaces';
 import { ProjectEndpoint } from '../../infrastructure/interfaces/projects.interface';
 
 export class ProjectEntity {
@@ -13,13 +12,13 @@ export class ProjectEntity {
         public url: string | null,
         public repositories: string[],
         public technologies: string[] | null,
-        public status: ModelStatus,
         public createdAt: string,
         public updatedAt: string
     ) {}
 
     /**
      * Creates a new ProjectEntity from a ProjectEndpoint
+     *
      * @param {ProjectEndpoint} endpoint
      * @return {ProjectEntity}
      */
@@ -34,7 +33,6 @@ export class ProjectEntity {
             endpoint.url,
             endpoint.repositories,
             endpoint.technologies,
-            endpoint.status,
             endpoint.created_at,
             endpoint.updated_at
         );
