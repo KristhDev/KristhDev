@@ -2,18 +2,40 @@
 import { env } from '../../config/env';
 
 /* Entities */
-import { ProjectEntity } from '../../domain/entities';
+import { ProjectEntity, SkillEntity } from '../../domain/entities';
 
 /* Contracts */
 import { MarkdownServiceContract, ReadmeServiceContract } from '../../domain/contracts/services';
 
 /* Interfaces */
-import { UpdateMarkdownSectionOptions } from '../interfaces';
+import { SkillType, UpdateMarkdownSectionOptions } from '../interfaces';
 
 export class ReadmeService implements ReadmeServiceContract {
     constructor(
         private readonly markdownService: MarkdownServiceContract
     ) {}
+
+    /**
+     * Generates a sub-section of the skills section in the README.md file.
+     *
+     * @param {SkillEntity[]} skills List of skills.
+     * @param {string} sectionName Name of the section.
+     * @return {string} The sub-section of the skills section in Markdown format.
+     */
+    private generateSkillsItemList(skills: SkillEntity[], sectionName: string): string {
+        let template = '\n';
+        template += `- ### ${ sectionName } \n\n`;
+        template += `<div> \n \n`;
+
+        skills.forEach(skill => {
+            template += `  ![${ skill.name }](${ skill.badge }) \n`;
+        });
+
+        template += ` \n`;
+        template += `</div> \n`;
+
+        return template;
+    }
 
     /**
      * Loads the content of the README.md file in the root of the user's repository.
@@ -50,6 +72,47 @@ export class ReadmeService implements ReadmeServiceContract {
         template += `    <img alt="Github banner Kristhian Ferrufino" width="100%" src="${ env.PORTFOLIO_BANNER_URL }"> \n`;
         template += '  </a> \n';
         template += '</div> \n';
+
+        return template;
+    }
+
+    /**
+     * Generates the skills section in the README.md file.
+     *
+     * This section is the last section of the README.md file and contains a
+     * table with the latest projects.
+     *
+     * @return {string} The skills section in Markdown format.
+     */
+    public generateSkillsSection(skills: SkillEntity[]): string {
+        const skillsMap = {
+            languages: {
+                sectionName: 'Lenguajes',
+                skills: skills.filter(skill => skill.type === 'language')
+            },
+            frameworks: {
+                sectionName: 'Frameworks',
+                skills: skills.filter(skill => skill.type === 'framework')
+            },
+            databases: {
+                sectionName: 'Bases de Datos',
+                skills: skills.filter(skill => skill.type === 'database')
+            },
+            baas: {
+                sectionName: 'BAAS',
+                skills: skills.filter(skill => skill.type === 'baas')
+            },
+            tools: {
+                sectionName: 'Herramientas',
+                skills: skills.filter(skill => skill.type === 'tool')
+            }
+        };
+
+        let template = '';
+
+        Object.entries(skillsMap).forEach(([ type, item ]) => {
+            template += this.generateSkillsItemList(item.skills, item.sectionName);
+        });
 
         return template;
     }
