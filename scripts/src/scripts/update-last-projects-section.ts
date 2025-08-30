@@ -8,7 +8,7 @@ import { updateLastProjectsSectionOfReadmeUseCase } from '../config/di';
  *
  * @returns {Promise<void>} A Promise that resolves when the projects section has been updated.
  */
-const updateLastProjects = async (): Promise<void> => {
+const updateLastProjectsSection = async (): Promise<void> => {
     try {
         await updateLastProjectsSectionOfReadmeUseCase.execute();
     }
@@ -17,4 +17,4 @@ const updateLastProjects = async (): Promise<void> => {
     }
 }
 
-updateLastProjects();
+updateLastProjectsSection();
