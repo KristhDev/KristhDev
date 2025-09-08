@@ -14,7 +14,7 @@ import { updateSocialMediaSectionOfReadmeUseCase } from '@config/di';
  */
 const updateSocialMediaSection = async (): Promise<void> => {
     try {
-        updateSocialMediaSectionOfReadmeUseCase.execute();
+        await updateSocialMediaSectionOfReadmeUseCase.execute();
     }
     catch (error) {
         console.error(error);
