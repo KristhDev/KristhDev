@@ -1,6 +1,7 @@
 import { BaseError } from './base.error';
 
 export interface MarkdownErrorJson {
+    error: string;
     message: string;
 }
 
@@ -13,6 +14,7 @@ export class MarkdownError extends BaseError<MarkdownErrorJson> {
 
     public toJSON(): MarkdownErrorJson {
         return {
+            error: this.name,
             message: this.message,
         };
     }

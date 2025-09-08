@@ -1,6 +1,7 @@
 import { BaseError } from './base.error';
 
 export interface ApiErrorJson {
+    error: string;
     message: string;
     status: number;
     statusText: string;
@@ -22,6 +23,7 @@ export class ApiError extends BaseError<ApiErrorJson> {
 
     public toJSON(): ApiErrorJson {
         return {
+            error: this.name,
             message: this.message,
             status: this.status,
             statusText: this.statusText,
