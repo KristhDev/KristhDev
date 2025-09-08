@@ -1,6 +1,6 @@
 <!-- BANNER_SECTION:START -->
 <div align="center"> 
-  <h1 align="center">Hola, soy <a href="https://kristhdev.vercel.app">Kristhian Ferrufino 👋🏻</a></h1> 
+  <h1 align="center">Hola, soy <a href="https://kristhdev.vercel.app/">Kristhian Ferrufino 👋🏻</a></h1> 
   <br/> 
 
   <a target="_blank"> 
