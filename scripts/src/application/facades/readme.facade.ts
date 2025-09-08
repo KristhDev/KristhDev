@@ -2,6 +2,7 @@
 import { markers, markersMessages } from '@application/constants';
 
 /* Contracts */
+import { LoggerAdapterContract } from '@domain/contracts/adapters';
 import { ReadmeFacadeContract } from '@domain/contracts/facades';
 import { ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '@domain/contracts/services';
 
@@ -10,6 +11,7 @@ import { MarkdownError } from '@domain/errors';
 
 export class ReadmeFacade implements ReadmeFacadeContract {
     constructor(
+        private readonly loggerAdapter: LoggerAdapterContract,
         private readonly projectsService: ProjectsServiceContract,
         private readonly skillsService: SkillsServiceContract,
         private readonly readmeService: ReadmeServiceContract
@@ -26,8 +28,15 @@ export class ReadmeFacade implements ReadmeFacadeContract {
      */
     public updateBannerSection(): void {
         try {
+            this.loggerAdapter.info('Updating banner section in README.md file');
+
+            this.loggerAdapter.info('Generating banner section');
             const bannerSection = this.readmeService.generateBannerSection();
+            this.loggerAdapter.success('Banner section generated successfully');
+
+            this.loggerAdapter.info('Loading README.md file');
             const readmeContent = this.readmeService.loadReadme();
+            this.loggerAdapter.success('README.md file loaded successfully');
 
             const startIndex = readmeContent.indexOf(markers.BANNER_SECTION_START);
             const endIndex = readmeContent.indexOf(markers.BANNER_SECTION_END);
@@ -36,10 +45,13 @@ export class ReadmeFacade implements ReadmeFacadeContract {
             const hasEndMarker = endIndex !== -1;
 
             const hasMarkers = hasStartMarker && hasEndMarker;
+            this.loggerAdapter.info('Checking if markers exist');
 
             const areMarkersWellPositioned = hasMarkers && ((startIndex + markers.BANNER_SECTION_START.length) < endIndex);
             if (!hasMarkers || !areMarkersWellPositioned) throw new MarkdownError(markersMessages.BANNER_MAKERS_FAILED);
+            this.loggerAdapter.success('Markers checked successfully');
 
+            this.loggerAdapter.info('Updating banner section');
             const updatedReadmeContent = this.readmeService.updateSection({
                 content: readmeContent,
                 markers: { start: startIndex + markers.BANNER_SECTION_START.length, end: endIndex },
@@ -47,6 +59,7 @@ export class ReadmeFacade implements ReadmeFacadeContract {
             });
 
             this.readmeService.updateReadme(updatedReadmeContent);
+            this.loggerAdapter.success('Banner section updated successfully in README.md file');
         } 
         catch (error) {
             throw error;
@@ -64,25 +77,41 @@ export class ReadmeFacade implements ReadmeFacadeContract {
      */
     public async updateLastProjectsSection(): Promise<void> {
         try {
+            this.loggerAdapter.info('Updating last projects section in README.md file');
+
+            this.loggerAdapter.info('Getting latest projects');
             const projects = await this.projectsService.getLatest();
+            this.loggerAdapter.success('Latest projects retrieved successfully');
+
+            this.loggerAdapter.info('Generating projects table');
             const projectsTableRows = this.readmeService.generateProjectsTableRows(projects);
 
             let projectsTable = '\n<table align="center"> \n';
             projectsTable += projectsTableRows;
             projectsTable += '</table>\n';
 
-            const readmeContent = this.readmeService.loadReadme();
+            this.loggerAdapter.success('Projects table generated successfully');
 
+            this.loggerAdapter.info('Loading README.md file');
+            const readmeContent = this.readmeService.loadReadme();
+            this.loggerAdapter.success('README.md file loaded successfully');
+
+            this.loggerAdapter.info('Getting last projects section markers');
             const startIndex = readmeContent.indexOf(markers.PROJECTS_START);
             const endIndex = readmeContent.indexOf(markers.PROJECTS_END);
+            this.loggerAdapter.success('Last projects section markers retrieved successfully');
 
             const hasStartMarker = startIndex !== -1;
             const hasEndMarker = endIndex !== -1;
 
             const hasMarkers = hasStartMarker && hasEndMarker;
+            this.loggerAdapter.info('Checking if markers exist');
 
             const areMarkersWellPositioned = hasMarkers && ((startIndex + markers.PROJECTS_START.length) < endIndex);
             if (!hasMarkers || !areMarkersWellPositioned) throw new MarkdownError(markersMessages.PROJECT_MAKERS_FAILED);
+            this.loggerAdapter.success('Markers checked successfully');
+
+            this.loggerAdapter.info('Updating last projects section');
 
             const updatedReadmeContent = this.readmeService.updateSection({
                 content: readmeContent,
@@ -91,6 +120,7 @@ export class ReadmeFacade implements ReadmeFacadeContract {
             });
 
             this.readmeService.updateReadme(updatedReadmeContent);
+            this.loggerAdapter.success('Projects section updated successfully in README.md file');
         }
         catch (error) {
             console.error(error);
@@ -107,10 +137,19 @@ export class ReadmeFacade implements ReadmeFacadeContract {
      */
     public async updateSkillsSection(): Promise<void> {
         try {
-            const skills = await this.skillsService.getAll();
-            const skillsSection = this.readmeService.generateSkillsSection(skills);
+            this.loggerAdapter.info('Updating skills section in README.md file');
 
+            this.loggerAdapter.info('Getting skills');
+            const skills = await this.skillsService.getAll();
+            this.loggerAdapter.success('Skills retrieved successfully');
+
+            this.loggerAdapter.info('Generating skills section');
+            const skillsSection = this.readmeService.generateSkillsSection(skills);
+            this.loggerAdapter.success('Skills section generated successfully');
+
+            this.loggerAdapter.info('Loading README.md file');
             const readmeContent = this.readmeService.loadReadme();
+            this.loggerAdapter.success('README.md file loaded successfully');
 
             const startIndex = readmeContent.indexOf(markers.SKILLS_START);
             const endIndex = readmeContent.indexOf(markers.SKILLS_END);
@@ -119,10 +158,13 @@ export class ReadmeFacade implements ReadmeFacadeContract {
             const hasEndMarker = endIndex !== -1;
 
             const hasMarkers = hasStartMarker && hasEndMarker;
+            this.loggerAdapter.info('Checking if markers exist');
 
             const areMarkersWellPositioned = hasMarkers && ((startIndex + markers.SKILLS_START.length) < endIndex);
             if (!hasMarkers || !areMarkersWellPositioned) throw new MarkdownError(markersMessages.SKILL_MAKERS_FAILED);
+            this.loggerAdapter.success('Markers checked successfully');
 
+            this.loggerAdapter.info('Updating skills section');
             const updatedReadmeContent = this.readmeService.updateSection({
                 content: readmeContent,
                 markers: { start: startIndex + markers.SKILLS_START.length, end: endIndex },
@@ -130,6 +172,7 @@ export class ReadmeFacade implements ReadmeFacadeContract {
             });
 
             this.readmeService.updateReadme(updatedReadmeContent);
+            this.loggerAdapter.success('Skills section updated successfully in README.md file');
         } 
         catch (error) {
             console.error(error);
