@@ -27,6 +27,9 @@ jobs:
 
       - name: Run update last projects section script
         env:
+          APP_ENV: ${{ secrets.APP_ENV }}
+          LOGTAIL_SOURCE_TOKEN: ${{ secrets.LOGTAIL_SOURCE_TOKEN }}
+          LOGTAIL_SOURCE_URL: ${{ secrets.LOGTAIL_SOURCE_URL }}
           PORTFOLIO_API_URL: ${{ secrets.PORTFOLIO_API_URL }}
           PORTFOLIO_BANNER_URL: ${{ secrets.PORTFOLIO_BANNER_URL }}
           PORTFOLIO_URL: ${{ secrets.PORTFOLIO_URL }}
