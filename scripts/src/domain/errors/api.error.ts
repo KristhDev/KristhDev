@@ -1,10 +1,32 @@
-export class ApiError extends Error {
+import { BaseError } from './base.error';
+
+export interface ApiErrorJson {
+    message: string;
+    status: number;
+    statusText: string;
+    method: string;
+    url: string;
+}
+
+export class ApiError extends BaseError<ApiErrorJson> {
     constructor(
         message: string,
         public status: number,
         public statusText: string,
+        public method: string,
+        public url: string,
     ) {
         super(message);
-        this.message;
+        this.name = 'ApiError';
+    }
+
+    public toJSON(): ApiErrorJson {
+        return {
+            message: this.message,
+            status: this.status,
+            statusText: this.statusText,
+            method: this.method,
+            url: this.url,
+        };
     }
 }
