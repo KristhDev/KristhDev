@@ -67,7 +67,7 @@
         </p> 
         <div> 
 
-[![AssistControl Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app/projects/assistcontrol)
+[![AssistControl Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app//projects/assistcontrol)
         </div> 
       </div> 
     </td> 
@@ -83,7 +83,7 @@
         </p> 
         <div> 
 
-[![JW Reports Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app/projects/jw-reports)
+[![JW Reports Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app//projects/jw-reports)
 [![JW Reports Repositorio ](https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|)](https://github.com/KristhDev/JW-Reports)
 [![JW Reports Url ](https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|)](https://www.mediafire.com/file/mh6jcq1wnocz9jd/JW_Reports_2.3.1.apk/file)
         </div> 
@@ -101,7 +101,7 @@
         </p> 
         <div> 
 
-[![TecnicSearch Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app/projects/tecnicsearch)
+[![TecnicSearch Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app//projects/tecnicsearch)
 [![TecnicSearch Url ](https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|)](https://www.mediafire.com/file/h0yvgolvc3k3aed/tecnicsearch.apk/file)
         </div> 
       </div> 
