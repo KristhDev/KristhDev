@@ -1,4 +1,7 @@
-import { updateBannerSectionOfReadmeUseCase } from '../config/di';
+import 'module-alias/register';
+import '../../paths';
+
+import { updateBannerSectionOfReadmeUseCase } from '@config/di';
 
 /**
  * Updates the banner section in the README.md file.
