@@ -16,3 +16,11 @@ export interface ApiOptions {
     queryParams?: Record<string, string>;
     signal?: AbortSignal;
 }
+
+export interface LoggerOptions {
+    logsDir?: string;
+    logsFileName?: string;
+    renderLogsInConsole?: boolean;
+    uploadLogsToService?: boolean;
+    writeLogsInFile?: boolean;
+}
