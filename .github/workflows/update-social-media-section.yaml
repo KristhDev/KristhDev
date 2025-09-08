@@ -1,0 +1,44 @@
+name: Update profile README with social media
+
+on:
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: ./scripts
+
+jobs:
+  update-banner-section:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm i -g pnpm && pnpm install
+
+      - name: Run update social media section script
+        env:
+          APP_ENV: ${{ secrets.APP_ENV }}
+          LOGTAIL_SOURCE_TOKEN: ${{ secrets.LOGTAIL_SOURCE_TOKEN }}
+          LOGTAIL_SOURCE_URL: ${{ secrets.LOGTAIL_SOURCE_URL }}
+          PORTFOLIO_API_URL: ${{ secrets.PORTFOLIO_API_URL }}
+          PORTFOLIO_BANNER_URL: ${{ secrets.PORTFOLIO_BANNER_URL }}
+          PORTFOLIO_URL: ${{ secrets.PORTFOLIO_URL }}
+        run: pnpm run update:social-media-section
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.name "KristhDev [GitHub Actions]"
+          git config --local user.email "kristhdev@gmail.com"
+          git add ../README.md
+          git commit -m "Update README.md in social media section" -a || echo "No changes to commit"
+          git push
