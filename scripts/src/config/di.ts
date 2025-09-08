@@ -1,3 +1,6 @@
+/* Env */
+import { env } from './env';
+
 /* Contracts */
 import { ApiAdapterContract, FileSystemAdapterContract, LoggerAdapterContract } from '@domain/contracts/adapters';
 import { MarkdownServiceContract, ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '@domain/contracts/services';
@@ -16,7 +19,14 @@ import { ReadmeFacade } from '@application/facades';
 /* UseCases */
 import { UpdateBannerSectionOfReadmeUseCase, UpdateLastProjectsSectionOfReadmeUseCase, UpdateSkillsSectionOfReadmeUseCase } from '@application/usecases';
 
-export const loggerAdapter: LoggerAdapterContract = new LoggerAdapter({ renderLogsInConsole: true, writeLogsInFile: true });
+const isProduction = env.APP_ENV === 'production';
+
+export const loggerAdapter: LoggerAdapterContract = new LoggerAdapter({
+    renderLogsInConsole: true,
+    writeLogsInFile: !isProduction,
+    uploadLogsToService: isProduction,
+});
+
 export const apiAdapter: ApiAdapterContract = new ApiAdapter(loggerAdapter);
 export const fileSystemAdapter: FileSystemAdapterContract = new FileSystemAdapter(loggerAdapter);
 
