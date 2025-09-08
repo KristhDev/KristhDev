@@ -65,7 +65,8 @@ export class ReadmeService implements ReadmeServiceContract {
      * @return {string} The banner section in Markdown format.
      */
     public generateBannerSection(): string {
-        let template = '<div align="center"> \n';
+        let template = '\n';
+        template += '<div align="center"> \n';
         template += `  <h1 align="center">Hola, soy <a href="${ env.PORTFOLIO_URL }">Kristhian Ferrufino 👋🏻</a></h1> \n`;
         template += '  <br/> \n\n';
         template += '  <a target="_blank"> \n';
@@ -125,6 +126,10 @@ export class ReadmeService implements ReadmeServiceContract {
      */
     public generateProjectsTableRows(projects: ProjectEntity[]): string {
         const projectsToMarkdown = projects.map(project => {
+            const projectDescription = project.description.length > 250 
+                ? project.description.substring(0, 250) + '...' 
+                : project.description;
+
             let template = '  <tr border="none"> \n';
             template += '    <td align="center"> \n';
 
@@ -132,19 +137,31 @@ export class ReadmeService implements ReadmeServiceContract {
             template += '      <div align="right"> \n';
             template += `        <h3 align="center">${ project.name }</h3> \n`;
             template += '        <p align="left"> \n';
-            template += `          ${ (project.description.length > 250 ? project.description.substring(0, 250) + '...' : project.description) } \n`;
+            template += `          ${ projectDescription } \n`;
             template += '        </p> \n';
 
             template += '        <div> \n\n';
 
-            template += `[![${ project.name } Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](${ env.PORTFOLIO_URL }/projects/${ project.slug })\n`;
+            const projectUrl = new URL(env.PORTFOLIO_URL);
+            projectUrl.pathname = `/projects/${ project.slug }`;
+
+            const readAlt = `${ project.name } Artículo`;
+            const readBadge = 'https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF';
+
+            const repositoryAlt = `${ project.name } Repositorio`;
+            const repositoryBadge = 'https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|';
+
+            const seeAlt = `${ project.name } Url`;
+            const seeBadge = 'https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|';
+
+            template += `[![${ readAlt } ](${ readBadge })](${ projectUrl.toString() })\n`;
 
             if (project.repositories && project.repositories.length > 0) {
-                template += `[![${ project.name } Repositorio ](https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|)](${ project.repositories[0] })\n`;
+                template += `[![${ repositoryAlt } ](${ repositoryBadge })](${ project.repositories[0] })\n`;
             }
 
             if (project.url) {
-                template += `[![${ project.name } Url ](https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|)](${ project.url })\n`;
+                template += `[![${ seeAlt } ](${ seeBadge })](${ project.url })\n`;
             }
 
             template += '        </div> \n';
