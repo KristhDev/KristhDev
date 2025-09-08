@@ -16,16 +16,16 @@ import { ReadmeFacade } from '@application/facades';
 /* UseCases */
 import { UpdateBannerSectionOfReadmeUseCase, UpdateLastProjectsSectionOfReadmeUseCase, UpdateSkillsSectionOfReadmeUseCase } from '@application/usecases';
 
-export const apiAdapter: ApiAdapterContract = new ApiAdapter();
-export const fileSystemAdapter: FileSystemAdapterContract = new FileSystemAdapter();
-export const loggerAdapter: LoggerAdapterContract = new LoggerAdapter({ renderLogsInConsole: true, writeLogsInFile: true }); 
+export const loggerAdapter: LoggerAdapterContract = new LoggerAdapter({ renderLogsInConsole: true, writeLogsInFile: true });
+export const apiAdapter: ApiAdapterContract = new ApiAdapter(loggerAdapter);
+export const fileSystemAdapter: FileSystemAdapterContract = new FileSystemAdapter(loggerAdapter);
 
 export const markdownService: MarkdownServiceContract = new MarkdownService(fileSystemAdapter);
 export const projectsService: ProjectsServiceContract = new ProjectsService(apiAdapter);
 export const readmeService: ReadmeServiceContract= new ReadmeService(markdownService);
 export const skillsService: SkillsServiceContract = new SkillsService(apiAdapter);
 
-export const readmeFacade: ReadmeFacadeContract = new ReadmeFacade(projectsService, skillsService, readmeService);
+export const readmeFacade: ReadmeFacadeContract = new ReadmeFacade(loggerAdapter, projectsService, skillsService, readmeService);
 
 export const updateBannerSectionOfReadmeUseCase: UpdateBannerSectionOfReadmeUseCaseContract = new UpdateBannerSectionOfReadmeUseCase(readmeFacade);
 export const updateLastProjectsSectionOfReadmeUseCase: UpdateLastProjectsSectionOfReadmeUseCaseContract = new UpdateLastProjectsSectionOfReadmeUseCase(readmeFacade);
