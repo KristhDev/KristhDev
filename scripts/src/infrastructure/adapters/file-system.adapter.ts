@@ -4,7 +4,7 @@ import fs from 'fs';
 import { fileSystemMessages } from '@application/constants';
 
 /* Contracts */
-import { FileSystemAdapterContract } from '@domain/contracts/adapters';
+import { FileSystemAdapterContract, LoggerAdapterContract } from '@domain/contracts/adapters';
 
 /* Errors */
 import { FileSystemError } from '@domain/errors';
@@ -13,6 +13,10 @@ import { FileSystemError } from '@domain/errors';
 import { Encodings } from '@domain/enums';
 
 export class FileSystemAdapter implements FileSystemAdapterContract {
+    public constructor(
+        private readonly loggerAdapter: LoggerAdapterContract
+    ) {}
+
     /**
      * Reads the content of a file.
      *
@@ -28,9 +32,10 @@ export class FileSystemAdapter implements FileSystemAdapterContract {
             return fs.readFileSync(path, encoding);
         }
         catch (error) {
-            console.error();
             const message = (error as Error).message || fileSystemMessages.FILE_NOT_READABLE;
             const fileSystemError = new FileSystemError(message);
+
+            this.loggerAdapter.error(`${ fileSystemError.name }: ${ fileSystemError.message }`, fileSystemError.toJSON());
 
             throw fileSystemError;
         }
@@ -49,9 +54,10 @@ export class FileSystemAdapter implements FileSystemAdapterContract {
             fs.writeFileSync(path, content);
         }
         catch (error) {
-            console.error();
             const message = (error as Error).message || fileSystemMessages.FILE_NOT_WRITABLE;
             const fileSystemError = new FileSystemError(message);
+
+            this.loggerAdapter.error(`${ fileSystemError.name }: ${ fileSystemError.message }`, fileSystemError.toJSON());
 
             throw fileSystemError;
         }

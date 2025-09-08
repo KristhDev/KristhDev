@@ -2,7 +2,7 @@
 import { apiMessages } from '@application/constants';
 
 /* Contracts */
-import { ApiAdapterContract } from '@domain/contracts/adapters';
+import { ApiAdapterContract, LoggerAdapterContract } from '@domain/contracts/adapters';
 
 /* Errors */
 import { ApiError } from '@domain/errors';
@@ -11,6 +11,9 @@ import { ApiError } from '@domain/errors';
 import { ApiOptions } from '../interfaces';
 
 export class ApiAdapter implements ApiAdapterContract {
+    public constructor (
+        private readonly loggerAdapter: LoggerAdapterContract,
+    ) {}
 
     /**
      * Converts ApiOptions into a RequestInit object for use with fetch API.
@@ -43,7 +46,9 @@ export class ApiAdapter implements ApiAdapterContract {
                 const error = new ApiError(
                     data?.message || apiMessages.UNEXPECTED_ERROR,
                     data?.status || resp.status,
-                    resp.statusText
+                    resp.statusText,
+                    init.method!,
+                    url
                 );
 
                 throw error;
@@ -73,6 +78,9 @@ export class ApiAdapter implements ApiAdapterContract {
             return data;
         }
         catch (error) {
+            const errorJson = (error as ApiError).toJSON();
+            this.loggerAdapter.error(`${ errorJson.error }: ${ errorJson.message }`, errorJson);
+
             throw error;
         }
     }
