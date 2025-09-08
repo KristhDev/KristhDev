@@ -1,12 +1,12 @@
 /* Env */
-import { env } from '../../config/env';
+import { env } from '@config/env';
 
 /* Contracts */
-import { ApiAdapterContract } from '../../domain/contracts/adapters';
-import { ProjectsServiceContract } from '../../domain/contracts/services';
+import { ApiAdapterContract } from '@domain/contracts/adapters';
+import { ProjectsServiceContract } from '@domain/contracts/services';
 
 /* Entities */
-import { ProjectEntity } from '../../domain/entities';
+import { ProjectEntity } from '@domain/entities';
 
 /* Interfaces */
 import { LastProjectsResponse } from '../interfaces';

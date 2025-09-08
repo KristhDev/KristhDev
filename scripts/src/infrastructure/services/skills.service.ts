@@ -1,11 +1,11 @@
-import { env } from '../../config/env';
+import { env } from '@config/env';
 
 /* Contracts */
-import { ApiAdapterContract } from '../../domain/contracts/adapters';
-import { SkillsServiceContract } from '../../domain/contracts/services';
+import { ApiAdapterContract } from '@domain/contracts/adapters';
+import { SkillsServiceContract } from '@domain/contracts/services';
 
 /* Entities */
-import { SkillEntity } from '../../domain/entities';
+import { SkillEntity } from '@domain/entities';
 
 /* Interfaces */
 import { SkillsResponse } from '../interfaces';

@@ -11,10 +11,13 @@ import { Logtail } from '@logtail/node';
 import { LogtailTransport } from '@logtail/winston';
 import timestampColorize from 'winston-timestamp-colorize';
 
+/* Env */
 import { env } from '@config/env';
 
+/* Adapters */
 import { LoggerAdapterContract } from '@domain/contracts/adapters';
 
+/* Interfaces */
 import { LoggerOptions } from '@infrastructure/interfaces';
 
 export class LoggerAdapter implements LoggerAdapterContract {

@@ -1,16 +1,16 @@
 import fs from 'fs';
 
 /* Constants */
-import { fileSystemMessages } from '../../application/constants';
+import { fileSystemMessages } from '@application/constants';
 
 /* Contracts */
-import { FileSystemAdapterContract } from '../../domain/contracts/adapters';
+import { FileSystemAdapterContract } from '@domain/contracts/adapters';
 
 /* Errors */
-import { FileSystemError } from '../../domain/errors';
+import { FileSystemError } from '@domain/errors';
 
 /* Enums */
-import { Encodings } from '../../domain/enums';
+import { Encodings } from '@domain/enums';
 
 export class FileSystemAdapter implements FileSystemAdapterContract {
     /**

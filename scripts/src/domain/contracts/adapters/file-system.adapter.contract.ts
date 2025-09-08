@@ -1,4 +1,4 @@
-import { Encodings } from '../../enums';
+import { Encodings } from '@domain/enums';
 
 export abstract class FileSystemAdapterContract {
     public abstract readFile(path: string, encoding: Encodings): string

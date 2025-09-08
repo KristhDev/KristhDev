@@ -1,6 +1,6 @@
-import { ProjectEntity, SkillEntity } from '../../entities';
+import { ProjectEntity, SkillEntity } from '@domain/entities';
 
-import { UpdateMarkdownSectionOptions } from '../../../infrastructure/interfaces';
+import { UpdateMarkdownSectionOptions } from '@infrastructure/interfaces';
 
 export abstract class ReadmeServiceContract {
     public abstract loadReadme(path?: string): string;

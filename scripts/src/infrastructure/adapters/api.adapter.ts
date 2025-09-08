@@ -1,11 +1,11 @@
 /* Constants */
-import { apiMessages } from '../../application/constants';
+import { apiMessages } from '@application/constants';
 
 /* Contracts */
-import { ApiAdapterContract } from '../../domain/contracts/adapters';
+import { ApiAdapterContract } from '@domain/contracts/adapters';
 
 /* Errors */
-import { ApiError } from '../../domain/errors';
+import { ApiError } from '@domain/errors';
 
 /* Interfaces */
 import { ApiOptions } from '../interfaces';

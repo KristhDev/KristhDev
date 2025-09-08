@@ -1,6 +1,6 @@
 /* Contracts */
-import { ReadmeFacadeContract } from '../../domain/contracts/facades';
-import { UpdateBannerSectionOfReadmeUseCaseContract } from '../../domain/contracts/usecases';
+import { ReadmeFacadeContract } from '@domain/contracts/facades';
+import { UpdateBannerSectionOfReadmeUseCaseContract } from '@domain/contracts/usecases';
 
 export class UpdateBannerSectionOfReadmeUseCase implements UpdateBannerSectionOfReadmeUseCaseContract {
     constructor(

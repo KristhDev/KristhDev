@@ -1,6 +1,7 @@
 import 'module-alias/register';
 import '../../paths';
 
+/* DI */
 import { updateBannerSectionOfReadmeUseCase } from '@config/di';
 
 /**

@@ -1,12 +1,12 @@
 /* Constants */
-import { markers, markersMessages } from '../constants';
+import { markers, markersMessages } from '@application/constants';
 
 /* Contracts */
-import { ReadmeFacadeContract } from '../../domain/contracts/facades';
-import { ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '../../domain/contracts/services';
+import { ReadmeFacadeContract } from '@domain/contracts/facades';
+import { ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '@domain/contracts/services';
 
 /* Errors */
-import { MarkdownError } from '../../domain/errors';
+import { MarkdownError } from '@domain/errors';
 
 export class ReadmeFacade implements ReadmeFacadeContract {
     constructor(

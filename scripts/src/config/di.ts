@@ -1,21 +1,21 @@
-import { SkillsService } from './../infrastructure/services/skills.service';
+import { SkillsService } from '@infrastructure/services/skills.service';
 /* Contracts */
-import { ApiAdapterContract, FileSystemAdapterContract } from '../domain/contracts/adapters';
-import { MarkdownServiceContract, ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '../domain/contracts/services';
-import { ReadmeFacadeContract } from '../domain/contracts/facades';
-import { UpdateBannerSectionOfReadmeUseCaseContract, UpdateLastProjectsSectionOfReadmeUseCaseContract, UpdateSkillsSectionOfReadmeUseCaseContract } from '../domain/contracts/usecases';
+import { ApiAdapterContract, FileSystemAdapterContract } from '@domain/contracts/adapters';
+import { MarkdownServiceContract, ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '@domain/contracts/services';
+import { ReadmeFacadeContract } from '@domain/contracts/facades';
+import { UpdateBannerSectionOfReadmeUseCaseContract, UpdateLastProjectsSectionOfReadmeUseCaseContract, UpdateSkillsSectionOfReadmeUseCaseContract } from '@domain/contracts/usecases';
 
 /* Adapters */
-import { ApiAdapter, FileSystemAdapter } from '../infrastructure/adapters';
+import { ApiAdapter, FileSystemAdapter } from '@infrastructure/adapters';
 
 /* Services */
-import { MarkdownService, ProjectsService, ReadmeService } from '../infrastructure/services';
+import { MarkdownService, ProjectsService, ReadmeService } from '@infrastructure/services';
 
 /* Facades */
-import { ReadmeFacade } from '../application/facades';
+import { ReadmeFacade } from '@application/facades';
 
 /* UseCases */
-import { UpdateBannerSectionOfReadmeUseCase, UpdateLastProjectsSectionOfReadmeUseCase, UpdateSkillsSectionOfReadmeUseCase } from '../application/usecases';
+import { UpdateBannerSectionOfReadmeUseCase, UpdateLastProjectsSectionOfReadmeUseCase, UpdateSkillsSectionOfReadmeUseCase } from '@application/usecases';
 
 export const apiAdapter: ApiAdapterContract = new ApiAdapter();
 export const fileSystemAdapter: FileSystemAdapterContract = new FileSystemAdapter();

@@ -1,5 +1,5 @@
 /* Interfaces */
-import { ProjectEndpoint } from '../../infrastructure/interfaces/projects.interface';
+import { ProjectEndpoint } from '@infrastructure/interfaces';
 
 export class ProjectEntity {
     private constructor(

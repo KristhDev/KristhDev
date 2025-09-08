@@ -1,4 +1,4 @@
-import { UpdateMarkdownSectionOptions } from '../../../infrastructure/interfaces';
+import { UpdateMarkdownSectionOptions } from '@infrastructure/interfaces';
 
 export abstract class MarkdownServiceContract {
     public abstract loadMarkdown(path: string): string;

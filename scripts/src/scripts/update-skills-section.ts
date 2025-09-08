@@ -1,4 +1,8 @@
-import { updateSkillsSectionOfReadmeUseCase } from '../config/di';
+import 'module-alias/register';
+import '../../paths';
+
+/* DI */
+import { updateSkillsSectionOfReadmeUseCase } from '@config/di';
 
 /**
  * Updates the skills section in the README.md file.

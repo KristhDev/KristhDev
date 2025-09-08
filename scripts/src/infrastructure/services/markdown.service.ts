@@ -1,9 +1,9 @@
 /* Contracts */
-import { FileSystemAdapterContract } from '../../domain/contracts/adapters';
-import { MarkdownServiceContract } from '../../domain/contracts/services';
+import { FileSystemAdapterContract } from '@domain/contracts/adapters';
+import { MarkdownServiceContract } from '@domain/contracts/services';
 
 /* Enums */
-import { Encodings } from '../../domain/enums';
+import { Encodings } from '@domain/enums';
 
 /* Interfaces */
 import { UpdateMarkdownSectionOptions } from '../interfaces';

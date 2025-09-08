@@ -1,14 +1,14 @@
 /* Env */
-import { env } from '../../config/env';
+import { env } from '@config/env';
 
 /* Entities */
-import { ProjectEntity, SkillEntity } from '../../domain/entities';
+import { ProjectEntity, SkillEntity } from '@domain/entities';
 
 /* Contracts */
-import { MarkdownServiceContract, ReadmeServiceContract } from '../../domain/contracts/services';
+import { MarkdownServiceContract, ReadmeServiceContract } from '@domain/contracts/services';
 
 /* Interfaces */
-import { SkillType, UpdateMarkdownSectionOptions } from '../interfaces';
+import { UpdateMarkdownSectionOptions } from '../interfaces';
 
 export class ReadmeService implements ReadmeServiceContract {
     constructor(
@@ -110,7 +110,7 @@ export class ReadmeService implements ReadmeServiceContract {
 
         let template = '';
 
-        Object.entries(skillsMap).forEach(([ type, item ]) => {
+        Object.entries(skillsMap).forEach(([ _, item ]) => {
             template += this.generateSkillsItemList(item.skills, item.sectionName);
         });
 

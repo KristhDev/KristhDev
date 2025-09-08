@@ -1,4 +1,8 @@
-import { updateLastProjectsSectionOfReadmeUseCase } from '../config/di';
+import 'module-alias/register';
+import '../../paths';
+
+/* DI */
+import { updateLastProjectsSectionOfReadmeUseCase } from '@config/di';
 
 /**
  * Updates the projects section in the README.md file.

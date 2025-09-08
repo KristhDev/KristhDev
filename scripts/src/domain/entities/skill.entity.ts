@@ -1,4 +1,4 @@
-import { ModelStatus, SkillEndpoint, SkillType } from '../../infrastructure/interfaces';
+import { ModelStatus, SkillEndpoint, SkillType } from '@infrastructure/interfaces';
 
 export class SkillEntity {
     private constructor(

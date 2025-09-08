@@ -1,3 +1,4 @@
+/* Interfaces */
 import { ModelStatus } from './common.interfaces';
 
 export type SkillType = 'baas' | 'database' | 'framework' | 'language' | 'tool';
