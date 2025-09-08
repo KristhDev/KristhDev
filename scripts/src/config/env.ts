@@ -4,6 +4,8 @@ dotenv.config();
 import { get } from 'env-var';
 
 export const env = {
+    APP_ENV: get('APP_ENV').required().asEnum([ 'local', 'production' ]),
+
     LOGTAIL_SOURCE_TOKEN: get('LOGTAIL_SOURCE_TOKEN').required().asString(),
     LOGTAIL_SOURCE_URL: get('LOGTAIL_SOURCE_URL').required().asUrlString(),
 
