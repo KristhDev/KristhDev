@@ -1,11 +1,13 @@
-import { ProjectEntity, SkillEntity } from '@domain/entities';
+/* Entities */
+import { ProjectEntity, SkillEntity, SocialMediaEntity } from '@domain/entities';
 
+/* Interfaces */
 import { UpdateMarkdownSectionOptions } from '@infrastructure/interfaces';
 
 export abstract class ReadmeServiceContract {
     public abstract loadReadme(path?: string): string;
     public abstract generateBannerSection(): string;
-    public abstract generateSocialMediaSection(): string;
+    public abstract generateSocialMediaSection(socialMedia: SocialMediaEntity[]): string;
     public abstract generateProjectsTableRows(projects: ProjectEntity[]): string;
     public abstract generateSkillsSection(skills: SkillEntity[]): string;
     public abstract updateReadme(content: string, path?: string): void;
