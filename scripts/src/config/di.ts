@@ -3,15 +3,20 @@ import { env } from './env';
 
 /* Contracts */
 import { ApiAdapterContract, FileSystemAdapterContract, LoggerAdapterContract } from '@domain/contracts/adapters';
-import { MarkdownServiceContract, ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '@domain/contracts/services';
+import { MarkdownServiceContract, ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract, SocialMediaServiceContract } from '@domain/contracts/services';
 import { ReadmeFacadeContract } from '@domain/contracts/facades';
-import { UpdateBannerSectionOfReadmeUseCaseContract, UpdateLastProjectsSectionOfReadmeUseCaseContract, UpdateSkillsSectionOfReadmeUseCaseContract, UpdateSocialMediaSectionOfReadmeUseCaseContract } from '@domain/contracts/usecases';
+import { 
+    UpdateBannerSectionOfReadmeUseCaseContract,
+    UpdateLastProjectsSectionOfReadmeUseCaseContract,
+    UpdateSkillsSectionOfReadmeUseCaseContract,
+    UpdateSocialMediaSectionOfReadmeUseCaseContract
+} from '@domain/contracts/usecases';
 
 /* Adapters */
 import { ApiAdapter, FileSystemAdapter, LoggerAdapter } from '@infrastructure/adapters';
 
 /* Services */
-import { MarkdownService, ProjectsService, ReadmeService, SkillsService } from '@infrastructure/services';
+import { MarkdownService, ProjectsService, ReadmeService, SkillsService, SocialMediaService } from '@infrastructure/services';
 
 /* Facades */
 import { ReadmeFacade } from '@application/facades';
@@ -36,11 +41,12 @@ export const apiAdapter: ApiAdapterContract = new ApiAdapter(loggerAdapter);
 export const fileSystemAdapter: FileSystemAdapterContract = new FileSystemAdapter(loggerAdapter);
 
 export const markdownService: MarkdownServiceContract = new MarkdownService(fileSystemAdapter);
+export const socialMediaService: SocialMediaServiceContract = new SocialMediaService(apiAdapter);
 export const projectsService: ProjectsServiceContract = new ProjectsService(apiAdapter);
 export const readmeService: ReadmeServiceContract= new ReadmeService(markdownService);
 export const skillsService: SkillsServiceContract = new SkillsService(apiAdapter);
 
-export const readmeFacade: ReadmeFacadeContract = new ReadmeFacade(loggerAdapter, projectsService, skillsService, readmeService);
+export const readmeFacade: ReadmeFacadeContract = new ReadmeFacade(loggerAdapter, socialMediaService, projectsService, skillsService, readmeService);
 
 export const updateBannerSectionOfReadmeUseCase: UpdateBannerSectionOfReadmeUseCaseContract = new UpdateBannerSectionOfReadmeUseCase(readmeFacade);
 export const updateSocialMediaSectionOfReadmeUseCase: UpdateSocialMediaSectionOfReadmeUseCaseContract = new UpdateSocialMediaSectionOfReadmeUseCase(readmeFacade);
