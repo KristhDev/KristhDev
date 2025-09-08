@@ -7,9 +7,9 @@ export class UpdateSocialMediaSectionOfReadmeUseCase implements UpdateSocialMedi
         private readonly readmeFacade: ReadmeFacadeContract
     ) {}
 
-    public execute(): void {
+    public async execute(): Promise<void> {
         try {
-            this.readmeFacade.updateSocialMediaSection();
+            await this.readmeFacade.updateSocialMediaSection();
         } 
         catch (error) {
             throw error;
