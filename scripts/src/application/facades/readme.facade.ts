@@ -67,6 +67,54 @@ export class ReadmeFacade implements ReadmeFacadeContract {
     }
 
     /**
+     * Updates the social media section in the README.md file.
+     *
+     * The social media section is the section that contains the social media links of the user.
+     *
+     * @return {void} The updated content of the README.md file.
+     * @throws {MarkdownError} If the social media section cannot be updated.
+     */
+    public updateSocialMediaSection(): void {
+        try {
+            this.loggerAdapter.info('Updating social media section in README.md file');
+
+            this.loggerAdapter.info('Generating social media section');
+            const socialMediaSection = this.readmeService.generateSocialMediaSection();
+            this.loggerAdapter.success('Social media section generated successfully');
+
+            this.loggerAdapter.info('Loading README.md file');
+            const readmeContent = this.readmeService.loadReadme();
+            this.loggerAdapter.success('README.md file loaded successfully');
+
+            const startIndex = readmeContent.indexOf(markers.SOCIAL_MEDIA_SECTION_START);
+            const endIndex = readmeContent.indexOf(markers.SOCIAL_MEDIA_SECTION_END);
+
+            const hasStartMarker = startIndex !== -1;
+            const hasEndMarker = endIndex !== -1;
+
+            const hasMarkers = hasStartMarker && hasEndMarker;
+            this.loggerAdapter.info('Checking if markers exist');
+
+            const areMarkersWellPositioned = hasMarkers && ((startIndex + markers.SOCIAL_MEDIA_SECTION_START.length) < endIndex);
+            if (!hasMarkers || !areMarkersWellPositioned) throw new MarkdownError(markersMessages.SOCIAL_MEDIA_MAKERS_FAILED);
+            this.loggerAdapter.success('Markers checked successfully');
+
+            this.loggerAdapter.info('Updating social media section');
+            const updatedReadmeContent = this.readmeService.updateSection({
+                content: readmeContent,
+                markers: { start: startIndex + markers.SOCIAL_MEDIA_SECTION_START.length, end: endIndex },
+                newContent: socialMediaSection
+            });
+
+            this.readmeService.updateReadme(updatedReadmeContent);
+            this.loggerAdapter.success('Social media section updated successfully in README.md file');
+        } 
+        catch (error) {
+            throw error;
+        }
+    }
+
+    /**
      * Updates the projects section in the README.md file.
      *
      * The projects section is the last section in the README.md file and contains
