@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "update:banner-section": "tsnd --clear src/scripts/update-banner-section.ts",
+    "update:social-media-section": "tsnd --clear src/scripts/update-social-media-section.ts",
     "update:last-projects-section": "tsnd --clear src/scripts/update-last-projects-section.ts",
     "update:skills-section": "tsnd --clear src/scripts/update-skills-section.ts"
   },
