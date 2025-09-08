@@ -4,7 +4,7 @@ import { markers, markersMessages } from '@application/constants';
 /* Contracts */
 import { LoggerAdapterContract } from '@domain/contracts/adapters';
 import { ReadmeFacadeContract } from '@domain/contracts/facades';
-import { ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract } from '@domain/contracts/services';
+import { ProjectsServiceContract, ReadmeServiceContract, SkillsServiceContract, SocialMediaServiceContract } from '@domain/contracts/services';
 
 /* Errors */
 import { MarkdownError } from '@domain/errors';
@@ -12,6 +12,7 @@ import { MarkdownError } from '@domain/errors';
 export class ReadmeFacade implements ReadmeFacadeContract {
     constructor(
         private readonly loggerAdapter: LoggerAdapterContract,
+        private readonly socialMediaService: SocialMediaServiceContract,
         private readonly projectsService: ProjectsServiceContract,
         private readonly skillsService: SkillsServiceContract,
         private readonly readmeService: ReadmeServiceContract
@@ -71,15 +72,19 @@ export class ReadmeFacade implements ReadmeFacadeContract {
      *
      * The social media section is the section that contains the social media links of the user.
      *
-     * @return {void} The updated content of the README.md file.
+     * @return {Promise<void>} A Promise that resolves when the social media section has been updated.
      * @throws {MarkdownError} If the social media section cannot be updated.
      */
-    public updateSocialMediaSection(): void {
+    public async updateSocialMediaSection(): Promise<void> {
         try {
             this.loggerAdapter.info('Updating social media section in README.md file');
 
+            this.loggerAdapter.info('Getting social media');
+            const socialMedia = await this.socialMediaService.getAll();
+            this.loggerAdapter.success('Social media retrieved successfully');
+
             this.loggerAdapter.info('Generating social media section');
-            const socialMediaSection = this.readmeService.generateSocialMediaSection();
+            const socialMediaSection = this.readmeService.generateSocialMediaSection(socialMedia);
             this.loggerAdapter.success('Social media section generated successfully');
 
             this.loggerAdapter.info('Loading README.md file');
