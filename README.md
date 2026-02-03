@@ -69,7 +69,7 @@
       <div align="right"> 
         <h3 align="center">AssistControl</h3> 
         <p align="left"> 
-          Es una aplicación web para el Centro Tecnológico Marcos Homero Guatemala INATEC que facilita los procesos académicos que realizan los docentes y personal de registro. A los maestros les permite llevar un control de asistencia de los grupos que tengan... 
+          Plataforma web creada para INATEC que digitaliza y automatiza la gestión de asistencia y administración académica. Reduce tareas manuales, mejora la precisión del registro y facilita el trabajo tanto de docentes como del personal administrativo media... 
         </p> 
         <div> 
 
