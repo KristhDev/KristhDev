@@ -85,7 +85,7 @@
       <div align="right"> 
         <h3 align="center">JW Reports</h3> 
         <p align="left"> 
-          Es una aplicación para gestionar las informes de predicación, revisitas y cursos bíblicos de los Testigos de Jehová. Permite llevar un control de la actividad que se realiza en la predicación y dar seguimiento a las personas interesadas en el mensaje... 
+          Aplicación móvil desarrollada con React Native y Supabase para gestionar horas, revisitas y cursos, con autenticación, sincronización en la nube y notificaciones inteligentes. Un proyecto end‑to‑end que demuestra dominio de desarrollo móvil, integrac... 
         </p> 
         <div> 
 
