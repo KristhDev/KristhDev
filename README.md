@@ -103,7 +103,7 @@
       <div align="right"> 
         <h3 align="center">TecnicSearch</h3> 
         <p align="left"> 
-          Es una aplicación para la oferta de los servicios del Instituto Nacional Tecnológico INATEC, los usuarios comunes y empresas se contactan con administración para solicitar el servicio acorde a sus necesidades y dejar sus calificaciones al personal qu... 
+          Aplicación móvil desarrollada con React Native Expo y Firebase para el proyecto TecnicSearch, creada en un mes y ganadora del INNOVATEC a nivel nacional. Un desarrollo end‑to‑end que demuestra capacidad para trabajar bajo presión, crear prototipos fu... 
         </p> 
         <div> 
 
