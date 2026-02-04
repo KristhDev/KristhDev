@@ -141,13 +141,13 @@
 <div> 
  
   ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF) 
-  ![Shadcn](https://img.shields.io/badge/Shadcn-000000?style=for-the-badge&logo=shadcnui&logoColor=FFFFFF) 
   ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=FFFFFF) 
   ![Expo / React Native](https://img.shields.io/badge/Expo%20/%20React%20Native-1C2024?style=for-the-badge&logo=expo&logoColor=FFFFFF) 
   ![Next.js](https://img.shields.io/badge/Next.js-2C3240?style=for-the-badge&logo=next.js&logoColor=FFFFFF) 
   ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=node.js&logoColor=FFFFFF) 
   ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=FFFFFF) 
   ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=FFFFFF) 
+  ![Shadcn](https://img.shields.io/badge/Shadcn-000000?style=for-the-badage&logo=shadcnui&logoColor=FFFFFF) 
  
 </div> 
 
