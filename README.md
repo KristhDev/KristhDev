@@ -65,6 +65,23 @@
 <table align="center"> 
   <tr border="none"> 
     <td align="center"> 
+      <img align="left" alt="ReactProjects" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1770174263/portfolio/projects/bqvv8lkfqdthkk1mu7po.png" width="50%"> 
+      <div align="right"> 
+        <h3 align="center">ReactProjects</h3> 
+        <p align="left"> 
+          Aplicación full‑stack de gestión de proyectos desarrollada con React + TypeScript y Laravel + PostgreSQL, implementando arquitectura limpia en frontend y backend, documentación OpenAPI altamente personalizable y pruebas automatizadas. Un proyecto que... 
+        </p> 
+        <div> 
+
+[![ReactProjects Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app/projects/reactprojects)
+[![ReactProjects Repositorio ](https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|)](https://github.com/KristhDev/ReactProjects-frontend)
+        </div> 
+      </div> 
+    </td> 
+  </tr> 
+
+  <tr border="none"> 
+    <td align="center"> 
       <img align="left" alt="AssistControl" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713576102/portfolio/projects/fbhm3rnedmhqpgfgrkox.jpg" width="50%"> 
       <div align="right"> 
         <h3 align="center">AssistControl</h3> 
@@ -92,23 +109,6 @@
 [![JW Reports Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app/projects/jw-reports)
 [![JW Reports Repositorio ](https://img.shields.io/badge/Repo-brightgreen.svg?logo=github&label=|)](https://github.com/KristhDev/JW-Reports)
 [![JW Reports Url ](https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|)](https://www.mediafire.com/file/mh6jcq1wnocz9jd/JW_Reports_2.3.1.apk/file)
-        </div> 
-      </div> 
-    </td> 
-  </tr> 
-
-  <tr border="none"> 
-    <td align="center"> 
-      <img align="left" alt="TecnicSearch" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1713575178/portfolio/projects/kqzrwyodcjhxe0si44on.png" width="50%"> 
-      <div align="right"> 
-        <h3 align="center">TecnicSearch</h3> 
-        <p align="left"> 
-          Aplicación móvil desarrollada con React Native Expo y Firebase para el proyecto TecnicSearch, creada en un mes y ganadora del INNOVATEC a nivel nacional. Un desarrollo end‑to‑end que demuestra capacidad para trabajar bajo presión, crear prototipos fu... 
-        </p> 
-        <div> 
-
-[![TecnicSearch Artículo ](https://img.shields.io/badge/Leer-brightgreen.svg?logo=readme&label=|&logoColor=FFFFFF)](https://kristhdev.vercel.app/projects/tecnicsearch)
-[![TecnicSearch Url ](https://img.shields.io/badge/Ver-brightgreen.svg?logo=realm&label=|)](https://www.mediafire.com/file/h0yvgolvc3k3aed/tecnicsearch.apk/file)
         </div> 
       </div> 
     </td> 
