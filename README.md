@@ -65,7 +65,7 @@
 <table align="center"> 
   <tr border="none"> 
     <td align="center"> 
-      <img align="left" alt="ReactProjects" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1770174263/portfolio/projects/bqvv8lkfqdthkk1mu7po.png" width="50%"> 
+      <img align="left" alt="ReactProjects" src="https://res.cloudinary.com/dzs8lf9lc/image/upload/v1776237478/portfolio/projects/kwrdnfviagtq47wys21l.png" width="50%"> 
       <div align="right"> 
         <h3 align="center">ReactProjects</h3> 
         <p align="left"> 
